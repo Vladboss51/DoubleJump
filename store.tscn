@@ -1,0 +1,35 @@
+[gd_scene load_steps=4 format=3 uid="uid://ft65ro461iqt"]
+
+[ext_resource type="Script" path="res://store.gd" id="1_bt4wk"]
+[ext_resource type="Texture2D" uid="uid://jdn7mqojmmga" path="res://Castle Walls/Снимок экрана 2024-10-27 211236.png" id="2_mi5am"]
+[ext_resource type="Texture2D" uid="uid://c74iht3fvc85s" path="res://Castle Walls/Рисунок1.png" id="3_605n7"]
+
+[node name="Store" type="Node2D"]
+script = ExtResource("1_bt4wk")
+
+[node name="ParallaxBackground" type="ParallaxBackground" parent="."]
+
+[node name="СнимокЭкрана2024-10-27211236" type="Sprite2D" parent="ParallaxBackground"]
+position = Vector2(574.75, 331.5)
+scale = Vector2(1.31699, 1.566)
+texture = ExtResource("2_mi5am")
+
+[node name="Go" type="Button" parent="."]
+offset_right = 1151.0
+offset_bottom = 649.0
+theme_type_variation = &"FlatButton"
+
+[node name="Label" type="Label" parent="."]
+offset_left = 790.0
+offset_top = 595.0
+offset_right = 1134.0
+offset_bottom = 644.0
+theme_override_font_sizes/font_size = 35
+text = "Продолжить..."
+
+[node name="Рисунок1" type="Sprite2D" parent="."]
+position = Vector2(577.39, 321.375)
+scale = Vector2(0.311677, 0.311677)
+texture = ExtResource("3_605n7")
+
+[connection signal="pressed" from="Go" to="." method="_on_go_pressed"]

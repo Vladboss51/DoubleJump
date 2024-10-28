@@ -1,0 +1,19 @@
+[gd_scene load_steps=3 format=3 uid="uid://36bi7awmy5va"]
+
+[ext_resource type="Script" path="res://parallax_layer.gd" id="1_0evxc"]
+[ext_resource type="Texture2D" uid="uid://kmejnjk4eoa1" path="res://Castle Walls/skyy.png" id="1_ufr3c"]
+
+[node name="BG" type="ParallaxBackground"]
+
+[node name="ParallaxLayer" type="ParallaxLayer" parent="."]
+script = ExtResource("1_0evxc")
+
+[node name="Skyy" type="Sprite2D" parent="ParallaxLayer"]
+position = Vector2(411.687, 324)
+scale = Vector2(0.414013, 0.414013)
+texture = ExtResource("1_ufr3c")
+
+[node name="Skyy2" type="Sprite2D" parent="ParallaxLayer"]
+position = Vector2(1600.54, 323.75)
+scale = Vector2(0.413694, 0.413694)
+texture = ExtResource("1_ufr3c")
