@@ -15,8 +15,10 @@ scale = Vector2(1.31699, 1.566)
 texture = ExtResource("2_mi5am")
 
 [node name="Go" type="Button" parent="."]
-offset_right = 1151.0
-offset_bottom = 649.0
+offset_left = 758.0
+offset_top = 563.0
+offset_right = 1092.0
+offset_bottom = 671.0
 theme_type_variation = &"FlatButton"
 
 [node name="Label" type="Label" parent="."]
