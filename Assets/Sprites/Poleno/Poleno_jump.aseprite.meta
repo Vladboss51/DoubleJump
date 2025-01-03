@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: c618630e0b7660c43a0b036cda491544
+guid: 4aae87d1ebeb04045b9e544c8d0d5e72
 ScriptedImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -119,38 +119,18 @@ ScriptedImporter:
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
   animatedSpriteImportData:
-  - name: Run pavuk sprite_Frame_0
+  - name: Poleno_jump_Frame_0
     originalName: 
-    pivot: {x: 0.24324325, y: 0}
-    alignment: 9
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 4
-      y: 191
-      width: 37
-      height: 18
-    spriteID: ab80d844b092abe4ba64cc0b41d060fa
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 4, y: 191}
-  - name: Run pavuk sprite_Frame_1
-    originalName: 
-    pivot: {x: 0.37777779, y: 0}
+    pivot: {x: 0.44444442, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
       x: 4
       y: 4
-      width: 45
-      height: 19
-    spriteID: 086298ee79afd8a4ca70db836f5e9840
+      width: 18
+      height: 17
+    spriteID: 5ff80220f2a64b84b920b1e0dcfac072
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -159,18 +139,18 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 4, y: 4}
-  - name: Run pavuk sprite_Frame_2
+  - name: Poleno_jump_Frame_1
     originalName: 
-    pivot: {x: 0.37777779, y: 0}
+    pivot: {x: 0.44444442, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
       x: 4
-      y: 31
-      width: 45
-      height: 19
-    spriteID: ceb464111fea8fa42b908ef65f5d91b9
+      y: 79
+      width: 18
+      height: 16
+    spriteID: 0876aa718b9eef04f9b82ced15733fc4
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -178,19 +158,19 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 4, y: 31}
-  - name: Run pavuk sprite_Frame_3
+    uvTransform: {x: 4, y: 79}
+  - name: Poleno_jump_Frame_2
     originalName: 
-    pivot: {x: 0.37777779, y: 0}
+    pivot: {x: 0.41176474, y: -0.4117647}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
       x: 4
-      y: 58
-      width: 45
-      height: 19
-    spriteID: 05a632902b18dd14ba78e427e70d2ea6
+      y: 29
+      width: 17
+      height: 17
+    spriteID: 1180053677410524da3784321da63d18
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -198,19 +178,19 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 4, y: 58}
-  - name: Run pavuk sprite_Frame_4
+    uvTransform: {x: 4, y: 29}
+  - name: Poleno_jump_Frame_3
     originalName: 
-    pivot: {x: 0.4473684, y: 0}
+    pivot: {x: 0.4, y: -0.88235295}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 4
-      y: 139
-      width: 38
-      height: 18
-    spriteID: f91f1bc5ac86e3a4bb599153afdcf0bb
+      x: 30
+      y: 4
+      width: 15
+      height: 17
+    spriteID: 6cf9a4f224d03ee4fa5fdc6aff60e100
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -218,19 +198,19 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 4, y: 139}
-  - name: Run pavuk sprite_Frame_5
+    uvTransform: {x: 30, y: 4}
+  - name: Poleno_jump_Frame_4
     originalName: 
-    pivot: {x: 0.4473684, y: 0}
+    pivot: {x: 0.41176474, y: -0.4117647}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
       x: 4
-      y: 165
-      width: 38
-      height: 18
-    spriteID: 8ed9b176be3193f4b907cdce1c694c9e
+      y: 54
+      width: 17
+      height: 17
+    spriteID: 231891b55ecb81243912c804db3a3398
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -238,19 +218,19 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 4, y: 165}
-  - name: Run pavuk sprite_Frame_6
+    uvTransform: {x: 4, y: 54}
+  - name: Poleno_jump_Frame_5
     originalName: 
-    pivot: {x: 0.37777779, y: 0}
+    pivot: {x: 0.44444442, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
       x: 4
-      y: 85
-      width: 45
-      height: 19
-    spriteID: 49f35875d27c27b49bf86ccb65d72ef5
+      y: 103
+      width: 18
+      height: 16
+    spriteID: 8f31534a407320f4286ba0ce02a3cba0
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -258,131 +238,67 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 4, y: 85}
-  - name: Run pavuk sprite_Frame_7
-    originalName: 
-    pivot: {x: 0.37777779, y: 0}
-    alignment: 9
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 4
-      y: 112
-      width: 45
-      height: 19
-    spriteID: 989da06281a1907429654d61f95d258c
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 4, y: 112}
-  - name: Run pavuk sprite_Frame_8
-    originalName: 
-    pivot: {x: 0.24324325, y: 0}
-    alignment: 9
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 4
-      y: 217
-      width: 37
-      height: 18
-    spriteID: b4c271f5eaee65f4c9d503a61366092f
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 4, y: 217}
+    uvTransform: {x: 4, y: 103}
   spriteSheetImportData: []
   asepriteLayers:
   - layerIndex: 0
-    guid: -1684676283
-    name: Run pavuk sprite
+    guid: -1689520816
+    name: Poleno_jump
     layerFlags: 0
     layerType: 0
     blendMode: 0
     cells:
-    - name: Run pavuk sprite_Frame_0
+    - name: Poleno_jump_Frame_0
       frameIndex: 0
       cellRect:
-        x: 23
+        x: 16
         y: 0
-        width: 37
-        height: 18
-      spriteId: ab80d844b092abe4ba64cc0b41d060fa
-    - name: Run pavuk sprite_Frame_1
+        width: 18
+        height: 17
+      spriteId: 5ff80220f2a64b84b920b1e0dcfac072
+    - name: Poleno_jump_Frame_1
       frameIndex: 1
       cellRect:
-        x: 15
+        x: 16
         y: 0
-        width: 45
-        height: 19
-      spriteId: 086298ee79afd8a4ca70db836f5e9840
-    - name: Run pavuk sprite_Frame_2
+        width: 18
+        height: 16
+      spriteId: 0876aa718b9eef04f9b82ced15733fc4
+    - name: Poleno_jump_Frame_2
       frameIndex: 2
       cellRect:
-        x: 15
-        y: 0
-        width: 45
-        height: 19
-      spriteId: ceb464111fea8fa42b908ef65f5d91b9
-    - name: Run pavuk sprite_Frame_3
+        x: 17
+        y: 7
+        width: 17
+        height: 17
+      spriteId: 1180053677410524da3784321da63d18
+    - name: Poleno_jump_Frame_3
       frameIndex: 3
       cellRect:
-        x: 15
-        y: 0
-        width: 45
-        height: 19
-      spriteId: 05a632902b18dd14ba78e427e70d2ea6
-    - name: Run pavuk sprite_Frame_4
+        x: 18
+        y: 15
+        width: 15
+        height: 17
+      spriteId: 6cf9a4f224d03ee4fa5fdc6aff60e100
+    - name: Poleno_jump_Frame_4
       frameIndex: 4
       cellRect:
-        x: 15
-        y: 0
-        width: 38
-        height: 18
-      spriteId: f91f1bc5ac86e3a4bb599153afdcf0bb
-    - name: Run pavuk sprite_Frame_5
+        x: 17
+        y: 7
+        width: 17
+        height: 17
+      spriteId: 231891b55ecb81243912c804db3a3398
+    - name: Poleno_jump_Frame_5
       frameIndex: 5
       cellRect:
-        x: 15
+        x: 16
         y: 0
-        width: 38
-        height: 18
-      spriteId: 8ed9b176be3193f4b907cdce1c694c9e
-    - name: Run pavuk sprite_Frame_6
-      frameIndex: 6
-      cellRect:
-        x: 15
-        y: 0
-        width: 45
-        height: 19
-      spriteId: 49f35875d27c27b49bf86ccb65d72ef5
-    - name: Run pavuk sprite_Frame_7
-      frameIndex: 7
-      cellRect:
-        x: 15
-        y: 0
-        width: 45
-        height: 19
-      spriteId: 989da06281a1907429654d61f95d258c
-    - name: Run pavuk sprite_Frame_8
-      frameIndex: 8
-      cellRect:
-        x: 23
-        y: 0
-        width: 37
-        height: 18
-      spriteId: b4c271f5eaee65f4c9d503a61366092f
+        width: 18
+        height: 16
+      spriteId: 8f31534a407320f4286ba0ce02a3cba0
     linkedCells: []
     parentIndex: -1
   platformSettings: []
   secondarySpriteTextures: []
   spritePackingTag: 
-  canvasSize: {x: 64, y: 48}
+  canvasSize: {x: 48, y: 48}

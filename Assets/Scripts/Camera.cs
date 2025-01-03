@@ -1,4 +1,5 @@
 using UnityEngine;
+using System;
 
 public class Cam : MonoBehaviour
 {
@@ -7,7 +8,7 @@ public class Cam : MonoBehaviour
 
     private void FixedUpdate()
     {
-        transform.position = new Vector3(0, (_player1.transform.position.y + _player2.transform.position.y) / 2 + 5, -20f);
+        transform.position = new Vector3(0f, Math.Max((_player1.transform.position.y + _player2.transform.position.y) / 2 + 5, 1), -20f);
 
     }
 }

@@ -39,10 +39,10 @@ public class Player : MonoBehaviour
         {
             if (block.transform.position.y <= transform.position.y)
             {
-                _animator.SetBool("JUMP", false);
+              _animator.SetBool("JUMP", false);
 
-                _onGround = true;
-            }
+              _onGround = true;
+             }
         }
     }
     private void BindOnEnter(Collider2D arg0)

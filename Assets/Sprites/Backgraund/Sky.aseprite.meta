@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 0a372559666705f4091510260a831c02
+guid: afcefa9c149bfde4497927458cea99e0
 ScriptedImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -119,9 +119,9 @@ ScriptedImporter:
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
   animatedSpriteImportData:
-  - name: Sprite-nebo_aseprite_Frame_0
+  - name: Sky_Frame_0
     originalName: 
-    pivot: {x: 0.5018129, y: -1.594096}
+    pivot: {x: 0.5018129, y: -2.6237113}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -129,8 +129,8 @@ ScriptedImporter:
       x: 4
       y: 4
       width: 2758
-      height: 271
-    spriteID: 873ccc4915c12d74cb18a94e9fa615ff
+      height: 194
+    spriteID: 3a3e1511f19453340ade47a226aef1c6
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -139,9 +139,9 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 4, y: 4}
-  - name: Sprite-nebo_aseprite_Frame_1
+  - name: Sky_Frame_1
     originalName: 
-    pivot: {x: 0.49601158, y: -1.594096}
+    pivot: {x: 0.49601158, y: -2.6237113}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -149,8 +149,8 @@ ScriptedImporter:
       x: 2770
       y: 4
       width: 2758
-      height: 271
-    spriteID: 4254cc1baae9897489585bfbd88ee83d
+      height: 194
+    spriteID: c130cdfd4b2e35d4ebc002f2a69f1116
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -159,18 +159,18 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 2770, y: 4}
-  - name: Sprite-nebo_aseprite_Frame_2
+  - name: Sky_Frame_2
     originalName: 
-    pivot: {x: 0.49127907, y: -1.594096}
+    pivot: {x: 0.49127907, y: -2.6237113}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
       x: 4
-      y: 283
+      y: 206
       width: 2752
-      height: 271
-    spriteID: 0a6e8d5d370759349860d8cc65edd463
+      height: 194
+    spriteID: fc3134d22f983744094cb204685a4d76
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -178,19 +178,19 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 4, y: 283}
-  - name: Sprite-nebo_aseprite_Frame_3
+    uvTransform: {x: 4, y: 206}
+  - name: Sky_Frame_3
     originalName: 
-    pivot: {x: 0.4883041, y: -1.594096}
+    pivot: {x: 0.4883041, y: -2.6237113}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
       x: 2764
-      y: 283
+      y: 206
       width: 2736
-      height: 271
-    spriteID: 20309317da82f8a4995a075c79dc06b3
+      height: 194
+    spriteID: f285d354dfa6b7d4199a3459891df5fc
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -198,19 +198,19 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 2764, y: 283}
-  - name: Sprite-nebo_aseprite_Frame_4
+    uvTransform: {x: 2764, y: 206}
+  - name: Sky_Frame_4
     originalName: 
-    pivot: {x: 0.48529413, y: -1.594096}
+    pivot: {x: 0.48529413, y: -2.6237113}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
       x: 4
-      y: 562
+      y: 408
       width: 2720
-      height: 271
-    spriteID: ae7a15387a8ea4347bdff2271d43fe82
+      height: 194
+    spriteID: 3b4e067dc6acab74b9208852984a7749
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -218,19 +218,19 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 4, y: 562}
-  - name: Sprite-nebo_aseprite_Frame_5
+    uvTransform: {x: 4, y: 408}
+  - name: Sky_Frame_5
     originalName: 
-    pivot: {x: 0.48224849, y: -1.594096}
+    pivot: {x: 0.48224849, y: -2.6237113}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
       x: 2732
-      y: 562
+      y: 408
       width: 2704
-      height: 271
-    spriteID: ce0ddcdead1ce4e468c7c712992f979d
+      height: 194
+    spriteID: 4620c0615d40b4f45a41cb5d620fa183
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -238,19 +238,19 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 2732, y: 562}
-  - name: Sprite-nebo_aseprite_Frame_6
+    uvTransform: {x: 2732, y: 408}
+  - name: Sky_Frame_6
     originalName: 
-    pivot: {x: 0.47916666, y: -1.594096}
+    pivot: {x: 0.47916666, y: -2.6237113}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
       x: 5444
-      y: 562
+      y: 408
       width: 2688
-      height: 271
-    spriteID: 0acb7252d058d08458d3aefae13e027c
+      height: 194
+    spriteID: 79b2c1b6608d2e24f95bf0cd7548873f
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -258,19 +258,19 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 5444, y: 562}
-  - name: Sprite-nebo_aseprite_Frame_7
+    uvTransform: {x: 5444, y: 408}
+  - name: Sky_Frame_7
     originalName: 
-    pivot: {x: 0.47604787, y: -1.594096}
+    pivot: {x: 0.47604787, y: -2.6237113}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
       x: 5508
-      y: 283
+      y: 206
       width: 2672
-      height: 271
-    spriteID: d7472c2902f3141419fe55f608761d06
+      height: 194
+    spriteID: 6e6f6e9a8e94884479df6b9be8b013d8
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -278,19 +278,19 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 5508, y: 283}
-  - name: Sprite-nebo_aseprite_Frame_8
+    uvTransform: {x: 5508, y: 206}
+  - name: Sky_Frame_8
     originalName: 
-    pivot: {x: 0.47289157, y: -1.594096}
+    pivot: {x: 0.47289157, y: -2.6237113}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
       x: 4
-      y: 841
+      y: 610
       width: 2656
-      height: 271
-    spriteID: 54c3bc175a555f14593cfe267ec01ffe
+      height: 194
+    spriteID: 2d9fbbfc4bd0d0d48a602797a8ba9208
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -298,10 +298,10 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 4, y: 841}
-  - name: Sprite-nebo_aseprite_Frame_9
+    uvTransform: {x: 4, y: 610}
+  - name: Sky_Frame_9
     originalName: 
-    pivot: {x: 0.46969694, y: -1.594096}
+    pivot: {x: 0.46969694, y: -2.6237113}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -309,8 +309,8 @@ ScriptedImporter:
       x: 5536
       y: 4
       width: 2640
-      height: 271
-    spriteID: 0071c6a47e5b0c449840a839d57b4151
+      height: 194
+    spriteID: 77c0b9e16625c914c96a5e8f8218c96b
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -319,18 +319,18 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 5536, y: 4}
-  - name: Sprite-nebo_aseprite_Frame_10
+  - name: Sky_Frame_10
     originalName: 
-    pivot: {x: 0.46319017, y: -1.594096}
+    pivot: {x: 0.46319017, y: -2.6237113}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
       x: 2668
-      y: 841
+      y: 610
       width: 2608
-      height: 271
-    spriteID: 330428cea25ce7e4da7df96ea6993178
+      height: 194
+    spriteID: 690e762bebccc684aa90d3a75ad55504
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -338,19 +338,19 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 2668, y: 841}
-  - name: Sprite-nebo_aseprite_Frame_11
+    uvTransform: {x: 2668, y: 610}
+  - name: Sky_Frame_11
     originalName: 
-    pivot: {x: 0.45987654, y: -1.594096}
+    pivot: {x: 0.45987654, y: -2.6237113}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
       x: 5284
-      y: 841
+      y: 610
       width: 2592
-      height: 271
-    spriteID: 6f796ee75d128604daef113e7be94b48
+      height: 194
+    spriteID: 2f24baa1feb011c47bc02c2c0fe4617f
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -358,19 +358,19 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 5284, y: 841}
-  - name: Sprite-nebo_aseprite_Frame_12
+    uvTransform: {x: 5284, y: 610}
+  - name: Sky_Frame_12
     originalName: 
-    pivot: {x: 0.45652175, y: -1.594096}
+    pivot: {x: 0.45652175, y: -2.6237113}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
       x: 4
-      y: 1120
+      y: 812
       width: 2576
-      height: 271
-    spriteID: f703e798540610e4c945f9213a66f838
+      height: 194
+    spriteID: 05a003c73c4030d4581e297e16d7b82d
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -378,19 +378,19 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 4, y: 1120}
-  - name: Sprite-nebo_aseprite_Frame_13
+    uvTransform: {x: 4, y: 812}
+  - name: Sky_Frame_13
     originalName: 
-    pivot: {x: 0.453125, y: -1.594096}
+    pivot: {x: 0.453125, y: -2.6237113}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
       x: 2588
-      y: 1120
+      y: 812
       width: 2560
-      height: 271
-    spriteID: 2d29255406be839408ab5298d9cf02d6
+      height: 194
+    spriteID: 731ddb1a1a8fbe24bb22b30f9d357fba
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -398,19 +398,19 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 2588, y: 1120}
-  - name: Sprite-nebo_aseprite_Frame_14
+    uvTransform: {x: 2588, y: 812}
+  - name: Sky_Frame_14
     originalName: 
-    pivot: {x: 0.44968554, y: -1.594096}
+    pivot: {x: 0.44968554, y: -2.6237113}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
       x: 5156
-      y: 1120
+      y: 812
       width: 2544
-      height: 271
-    spriteID: 48e6bd30f6baf90419f7ad17d802214e
+      height: 194
+    spriteID: 2a8408a12c29eb94e8bc600df74509d7
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -418,19 +418,19 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 5156, y: 1120}
-  - name: Sprite-nebo_aseprite_Frame_15
+    uvTransform: {x: 5156, y: 812}
+  - name: Sky_Frame_15
     originalName: 
-    pivot: {x: 0.44620252, y: -1.594096}
+    pivot: {x: 0.44620252, y: -2.6237113}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
       x: 4
-      y: 1399
+      y: 1014
       width: 2528
-      height: 271
-    spriteID: 4a4cd7cf19f170b4ba20f6deb3d41edb
+      height: 194
+    spriteID: ec8f9895951e7a741bd16ffb20f0e666
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -438,19 +438,19 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 4, y: 1399}
-  - name: Sprite-nebo_aseprite_Frame_16
+    uvTransform: {x: 4, y: 1014}
+  - name: Sky_Frame_16
     originalName: 
-    pivot: {x: 0.46722692, y: -1.594096}
+    pivot: {x: 0.46722692, y: -2.6237113}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
       x: 2540
-      y: 1399
+      y: 1014
       width: 2380
-      height: 271
-    spriteID: 51328ee426daead438c51f0644be7535
+      height: 194
+    spriteID: de1954fa0ed7e3d4b95c76899926f6fc
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -458,19 +458,19 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 2540, y: 1399}
-  - name: Sprite-nebo_aseprite_Frame_17
+    uvTransform: {x: 2540, y: 1014}
+  - name: Sky_Frame_17
     originalName: 
-    pivot: {x: 0.46050423, y: -1.594096}
+    pivot: {x: 0.46050423, y: -2.6237113}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
       x: 4928
-      y: 1399
+      y: 1014
       width: 2380
-      height: 271
-    spriteID: 39c2a8500a62852419e3b10b9544b0ff
+      height: 194
+    spriteID: ac0274153144ec041991852cb1ad6425
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -478,19 +478,19 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 4928, y: 1399}
-  - name: Sprite-nebo_aseprite_Frame_18
+    uvTransform: {x: 4928, y: 1014}
+  - name: Sky_Frame_18
     originalName: 
-    pivot: {x: 0.45378155, y: -1.594096}
+    pivot: {x: 0.45378155, y: -2.6237113}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
       x: 4
-      y: 1678
+      y: 1216
       width: 2380
-      height: 271
-    spriteID: 0b8811f667b194d478b5aae557ba8f6b
+      height: 194
+    spriteID: 6850a4ce061d9e04ca7bc7b386951267
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -498,19 +498,19 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 4, y: 1678}
-  - name: Sprite-nebo_aseprite_Frame_19
+    uvTransform: {x: 4, y: 1216}
+  - name: Sky_Frame_19
     originalName: 
-    pivot: {x: 0.44705883, y: -1.594096}
+    pivot: {x: 0.44705883, y: -2.6237113}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
       x: 2392
-      y: 1678
+      y: 1216
       width: 2380
-      height: 271
-    spriteID: f9ed51fd6c3f6684484094e5bc848f78
+      height: 194
+    spriteID: b59a95fc2de52ec49b07c88b766bda78
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -518,19 +518,19 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 2392, y: 1678}
-  - name: Sprite-nebo_aseprite_Frame_20
+    uvTransform: {x: 2392, y: 1216}
+  - name: Sky_Frame_20
     originalName: 
-    pivot: {x: 0.44033614, y: -1.594096}
+    pivot: {x: 0.44033614, y: -2.6237113}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
       x: 4780
-      y: 1678
+      y: 1216
       width: 2380
-      height: 271
-    spriteID: e90020a07cf682746b9c889972074b46
+      height: 194
+    spriteID: 6d5e89c45e97f294d914c923c968bb9c
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -538,19 +538,19 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 4780, y: 1678}
-  - name: Sprite-nebo_aseprite_Frame_21
+    uvTransform: {x: 4780, y: 1216}
+  - name: Sky_Frame_21
     originalName: 
-    pivot: {x: 0.43361348, y: -1.594096}
+    pivot: {x: 0.43361348, y: -2.6237113}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
       x: 4
-      y: 1957
+      y: 1418
       width: 2380
-      height: 271
-    spriteID: 427559a91d217ef4cbf4ec9c3bf17c1f
+      height: 194
+    spriteID: 132758d15dd39224ea6d77f09d5eeb1f
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -558,19 +558,19 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 4, y: 1957}
-  - name: Sprite-nebo_aseprite_Frame_22
+    uvTransform: {x: 4, y: 1418}
+  - name: Sky_Frame_22
     originalName: 
-    pivot: {x: 0.4268908, y: -1.594096}
+    pivot: {x: 0.4268908, y: -2.6237113}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
       x: 2392
-      y: 1957
+      y: 1418
       width: 2380
-      height: 271
-    spriteID: 30811a9d99ec04f469942ad2fef4a8ff
+      height: 194
+    spriteID: f3f354763360d744daa10e54a2e0214f
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -578,19 +578,19 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 2392, y: 1957}
-  - name: Sprite-nebo_aseprite_Frame_23
+    uvTransform: {x: 2392, y: 1418}
+  - name: Sky_Frame_23
     originalName: 
     pivot: {x: 0.41344538, y: -2.6237113}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 2195
-      y: 3081
+      x: 4780
+      y: 1418
       width: 2380
       height: 194
-    spriteID: c99985243d4d1ba4baeaefc85b5bfda0
+    spriteID: 7487ac14188228d4cb2a0cf97ce51e7d
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -598,19 +598,19 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 2195, y: 3081}
-  - name: Sprite-nebo_aseprite_Frame_24
+    uvTransform: {x: 4780, y: 1418}
+  - name: Sky_Frame_24
     originalName: 
     pivot: {x: 0.4047619, y: -2.6237113}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 4583
-      y: 3081
+      x: 4
+      y: 1620
       width: 2352
       height: 194
-    spriteID: c3cf66d062b87054baa8e474f506f9a9
+    spriteID: 5630b26f319b9cc41867ccae9e46093b
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -618,19 +618,19 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 4583, y: 3081}
-  - name: Sprite-nebo_aseprite_Frame_25
+    uvTransform: {x: 4, y: 1620}
+  - name: Sky_Frame_25
     originalName: 
-    pivot: {x: 0.40068495, y: -1.594096}
+    pivot: {x: 0.40068495, y: -2.6237113}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 4780
-      y: 1957
+      x: 2364
+      y: 1620
       width: 2336
-      height: 271
-    spriteID: 6f5c8f597d6ee974bb64a30a5905bbbd
+      height: 194
+    spriteID: 8c12a4b3ec11c344ab89d1d349bbb3d8
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -638,19 +638,19 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 4780, y: 1957}
-  - name: Sprite-nebo_aseprite_Frame_26
+    uvTransform: {x: 2364, y: 1620}
+  - name: Sky_Frame_26
     originalName: 
-    pivot: {x: 0.4214384, y: -1.594096}
+    pivot: {x: 0.4214384, y: -2.6237113}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 2172
-      y: 2519
+      x: 4708
+      y: 1620
       width: 2183
-      height: 271
-    spriteID: 5fc4784288a63ab4c9b40dd88c72731f
+      height: 194
+    spriteID: 28c4d2f1e2c16a1448fdfe9ad3d4a684
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -658,39 +658,19 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 2172, y: 2519}
-  - name: Sprite-nebo_aseprite_Frame_27
+    uvTransform: {x: 4708, y: 1620}
+  - name: Sky_Frame_27
     originalName: 
-    pivot: {x: 0.41410902, y: -1.594096}
-    alignment: 9
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 4363
-      y: 2519
-      width: 2183
-      height: 271
-    spriteID: 2fb755025d8d57549af9ab98018d1e6a
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 4363, y: 2519}
-  - name: Sprite-nebo_aseprite_Frame_28
-    originalName: 
-    pivot: {x: 0.40677965, y: -1.594096}
+    pivot: {x: 0.41410902, y: -2.6237113}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
       x: 4
-      y: 2802
+      y: 1822
       width: 2183
-      height: 271
-    spriteID: dfcf016598a1fa94b82ddd3cc2e0f776
+      height: 194
+    spriteID: 9c28cacc93dcb2648aaadc638b228f39
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -698,19 +678,19 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 4, y: 2802}
-  - name: Sprite-nebo_aseprite_Frame_29
+    uvTransform: {x: 4, y: 1822}
+  - name: Sky_Frame_28
     originalName: 
-    pivot: {x: 0.3994503, y: -1.594096}
+    pivot: {x: 0.40677965, y: -2.6237113}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
       x: 2195
-      y: 2802
+      y: 1822
       width: 2183
-      height: 271
-    spriteID: 2bc4a231d5ae1d7459aa88c44e871d86
+      height: 194
+    spriteID: 143ac2c6e222a4349adba5fa8a7cb296
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -718,19 +698,19 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 2195, y: 2802}
-  - name: Sprite-nebo_aseprite_Frame_30
+    uvTransform: {x: 2195, y: 1822}
+  - name: Sky_Frame_29
     originalName: 
-    pivot: {x: 0.39212093, y: -1.594096}
+    pivot: {x: 0.3994503, y: -2.6237113}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
       x: 4386
-      y: 2802
+      y: 1822
       width: 2183
-      height: 271
-    spriteID: 5f6d2ad053e4bcb4d98d5ee6542df134
+      height: 194
+    spriteID: 12922b0041eade048b2d509a454e2dc4
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -738,19 +718,19 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 4386, y: 2802}
-  - name: Sprite-nebo_aseprite_Frame_31
+    uvTransform: {x: 4386, y: 1822}
+  - name: Sky_Frame_30
     originalName: 
-    pivot: {x: 0.38479158, y: -1.594096}
+    pivot: {x: 0.39212093, y: -2.6237113}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
       x: 4
-      y: 3081
+      y: 2024
       width: 2183
-      height: 271
-    spriteID: 70c8b667e73f26843aa71b383eb5eb7d
+      height: 194
+    spriteID: 5ce56d0a4eb33884b9ce1705216dce0e
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -758,39 +738,19 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 4, y: 3081}
-  - name: Sprite-nebo_aseprite_Frame_32
+    uvTransform: {x: 4, y: 2024}
+  - name: Sky_Frame_31
     originalName: 
-    pivot: {x: 0.3774622, y: -1.5709091}
-    alignment: 9
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 4
-      y: 2236
-      width: 2183
-      height: 275
-    spriteID: ce4289f790408b24eace31c8c8f00618
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 4, y: 2236}
-  - name: Sprite-nebo_aseprite_Frame_33
-    originalName: 
-    pivot: {x: 0.37013283, y: -1.5709091}
+    pivot: {x: 0.38479158, y: -2.6237113}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
       x: 2195
-      y: 2236
+      y: 2024
       width: 2183
-      height: 275
-    spriteID: 0f244fbef6d2866418237d4cadac6aa1
+      height: 194
+    spriteID: 4f463cf7340033c47908b814c7499e05
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -798,19 +758,59 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 2195, y: 2236}
-  - name: Sprite-nebo_aseprite_Frame_34
+    uvTransform: {x: 2195, y: 2024}
+  - name: Sky_Frame_32
+    originalName: 
+    pivot: {x: 0.3774622, y: -2.6443298}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4386
+      y: 2024
+      width: 2183
+      height: 194
+    spriteID: a473a2080a272c84bbbf89ece69ccc33
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4386, y: 2024}
+  - name: Sky_Frame_33
+    originalName: 
+    pivot: {x: 0.37013283, y: -2.6443298}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 2226
+      width: 2183
+      height: 194
+    spriteID: e7a10faf3591ee14ab2660e1e23a40c5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 2226}
+  - name: Sky_Frame_34
     originalName: 
     pivot: {x: 0.3628035, y: -2.6443298}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 4780
-      y: 5624
+      x: 2195
+      y: 2226
       width: 2183
       height: 194
-    spriteID: faf5027c37dd0c840a0446ca62949cce
+    spriteID: b708be53fefe8c346a5f0665a47689eb
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -818,19 +818,19 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 4780, y: 5624}
-  - name: Sprite-nebo_aseprite_Frame_35
+    uvTransform: {x: 2195, y: 2226}
+  - name: Sky_Frame_35
     originalName: 
-    pivot: {x: 0.35661766, y: -1.5709091}
+    pivot: {x: 0.35661766, y: -2.6443298}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
       x: 4386
-      y: 2236
+      y: 2226
       width: 2176
-      height: 275
-    spriteID: f214a581acdbd6244bf6a91bf483ace4
+      height: 194
+    spriteID: dafaeac3ee4ead34a9563122de5a5d29
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -838,19 +838,19 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 4386, y: 2236}
-  - name: Sprite-nebo_aseprite_Frame_36
+    uvTransform: {x: 4386, y: 2226}
+  - name: Sky_Frame_36
     originalName: 
-    pivot: {x: 0.35185185, y: -1.5709091}
+    pivot: {x: 0.35185185, y: -2.6443298}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
       x: 4
-      y: 2519
+      y: 2428
       width: 2160
-      height: 275
-    spriteID: df8dca216f7f27d40b8e7cbb026507e6
+      height: 194
+    spriteID: 0ab02b2cf6eee8844a89aa55dcd80701
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -858,19 +858,19 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 4, y: 2519}
-  - name: Sprite-nebo_aseprite_Frame_37
+    uvTransform: {x: 4, y: 2428}
+  - name: Sky_Frame_37
     originalName: 
-    pivot: {x: 0.34701493, y: -1.5709091}
+    pivot: {x: 0.34701493, y: -2.6443298}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 4
-      y: 3360
+      x: 2172
+      y: 2428
       width: 2144
-      height: 275
-    spriteID: 02df1954654772542bbbb040c301034c
+      height: 194
+    spriteID: c11d15046e2b71f44b626455d5aa6c21
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -878,19 +878,19 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 4, y: 3360}
-  - name: Sprite-nebo_aseprite_Frame_38
+    uvTransform: {x: 2172, y: 2428}
+  - name: Sky_Frame_38
     originalName: 
-    pivot: {x: 0.34210524, y: -1.5709091}
+    pivot: {x: 0.34210524, y: -2.6443298}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 2156
-      y: 3360
+      x: 4324
+      y: 2428
       width: 2128
-      height: 275
-    spriteID: 7eb1bf770b0c1e94c850f24faf32c342
+      height: 194
+    spriteID: 12630c4d14a46f2468e9647d13dff995
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -898,39 +898,19 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 2156, y: 3360}
-  - name: Sprite-nebo_aseprite_Frame_39
+    uvTransform: {x: 4324, y: 2428}
+  - name: Sky_Frame_39
     originalName: 
-    pivot: {x: 0.33969465, y: -1.5709091}
-    alignment: 9
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 4292
-      y: 3360
-      width: 2096
-      height: 275
-    spriteID: 6234045f64ab0504c98412c4e7250a90
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 4292, y: 3360}
-  - name: Sprite-nebo_aseprite_Frame_40
-    originalName: 
-    pivot: {x: 0.33206108, y: -1.5709091}
+    pivot: {x: 0.33969465, y: -2.6443298}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
       x: 4
-      y: 3643
+      y: 2630
       width: 2096
-      height: 275
-    spriteID: a7c3d9c0bfff0ab4a9c365945d64959a
+      height: 194
+    spriteID: 93192f5606647894e883aaf7acdb3f48
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -938,19 +918,19 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 4, y: 3643}
-  - name: Sprite-nebo_aseprite_Frame_41
+    uvTransform: {x: 4, y: 2630}
+  - name: Sky_Frame_40
     originalName: 
-    pivot: {x: 0.32692307, y: -1.5709091}
+    pivot: {x: 0.33206108, y: -2.6443298}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
       x: 2108
-      y: 3643
-      width: 2080
-      height: 275
-    spriteID: 751df9cc11630614b9672466f7866883
+      y: 2630
+      width: 2096
+      height: 194
+    spriteID: 6686860170f28f844978bb9de833ba36
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -958,19 +938,19 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 2108, y: 3643}
-  - name: Sprite-nebo_aseprite_Frame_42
+    uvTransform: {x: 2108, y: 2630}
+  - name: Sky_Frame_41
     originalName: 
-    pivot: {x: 0.32170543, y: -1.5709091}
+    pivot: {x: 0.32692307, y: -2.6443298}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 4196
-      y: 3643
-      width: 2064
-      height: 275
-    spriteID: 1424b4ecf836f604e8dda051ad6a3eb6
+      x: 4212
+      y: 2630
+      width: 2080
+      height: 194
+    spriteID: 85f2714c7e4d58a4b9cb8b615c2fe05c
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -978,19 +958,19 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 4196, y: 3643}
-  - name: Sprite-nebo_aseprite_Frame_43
+    uvTransform: {x: 4212, y: 2630}
+  - name: Sky_Frame_42
     originalName: 
-    pivot: {x: 0.3299389, y: -1.5709091}
+    pivot: {x: 0.32170543, y: -2.6443298}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
       x: 4
-      y: 3926
-      width: 1964
-      height: 275
-    spriteID: ce4fc11a95b571d4fa2ea4dfaa800f6b
+      y: 2832
+      width: 2064
+      height: 194
+    spriteID: f042485962d5a334ea7525c3ac528b35
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -998,19 +978,99 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 4, y: 3926}
-  - name: Sprite-nebo_aseprite_Frame_44
+    uvTransform: {x: 4, y: 2832}
+  - name: Sky_Frame_43
     originalName: 
-    pivot: {x: 0.32179227, y: -1.5709091}
+    pivot: {x: 0.3299389, y: -2.6443298}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2076
+      y: 2832
+      width: 1964
+      height: 194
+    spriteID: c2bafdc2fd28bb941a94322d33d1f285
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2076, y: 2832}
+  - name: Sky_Frame_44
+    originalName: 
+    pivot: {x: 0.32179227, y: -2.6443298}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4048
+      y: 2832
+      width: 1964
+      height: 194
+    spriteID: 1ce0fbcdbcc909845bb1d401d1fd6ac4
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4048, y: 2832}
+  - name: Sky_Frame_45
+    originalName: 
+    pivot: {x: 0.31364563, y: -2.6443298}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 6020
+      y: 2832
+      width: 1964
+      height: 194
+    spriteID: c0dc25218d6d12b46a2ddb3239fa9702
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 6020, y: 2832}
+  - name: Sky_Frame_46
+    originalName: 
+    pivot: {x: 0.30549896, y: -2.6443298}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 3034
+      width: 1964
+      height: 194
+    spriteID: e20dfa35b2ac93a418b97dc84e7631f7
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 3034}
+  - name: Sky_Frame_47
+    originalName: 
+    pivot: {x: 0.29735234, y: -2.6443298}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
       x: 1976
-      y: 3926
+      y: 3034
       width: 1964
-      height: 275
-    spriteID: 7c1e2aa1f797e314193f70c207a368ef
+      height: 194
+    spriteID: efaa1f664260ed94d8b9bd65539a70c6
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -1018,19 +1078,19 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 1976, y: 3926}
-  - name: Sprite-nebo_aseprite_Frame_45
+    uvTransform: {x: 1976, y: 3034}
+  - name: Sky_Frame_48
     originalName: 
-    pivot: {x: 0.31364563, y: -1.5709091}
+    pivot: {x: 0.2892057, y: -2.6443298}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
       x: 3948
-      y: 3926
+      y: 3034
       width: 1964
-      height: 275
-    spriteID: 352e968091865954592020741747e781
+      height: 194
+    spriteID: bf05db5237a85104e81a304ddaba2343
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -1038,79 +1098,19 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 3948, y: 3926}
-  - name: Sprite-nebo_aseprite_Frame_46
+    uvTransform: {x: 3948, y: 3034}
+  - name: Sky_Frame_49
     originalName: 
-    pivot: {x: 0.30549896, y: -1.5709091}
+    pivot: {x: 0.2827869, y: -2.6443298}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
       x: 5920
-      y: 3926
-      width: 1964
-      height: 275
-    spriteID: e74040e677d1c714689e2b9c00395fd5
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 5920, y: 3926}
-  - name: Sprite-nebo_aseprite_Frame_47
-    originalName: 
-    pivot: {x: 0.29735234, y: -1.5709091}
-    alignment: 9
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 4
-      y: 4209
-      width: 1964
-      height: 275
-    spriteID: 906c3ab470becbf4a865dc4793e830ab
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 4, y: 4209}
-  - name: Sprite-nebo_aseprite_Frame_48
-    originalName: 
-    pivot: {x: 0.2892057, y: -1.5709091}
-    alignment: 9
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 1976
-      y: 4209
-      width: 1964
-      height: 275
-    spriteID: 0cfea01b1225d794facbe583c701edc8
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 1976, y: 4209}
-  - name: Sprite-nebo_aseprite_Frame_49
-    originalName: 
-    pivot: {x: 0.2827869, y: -1.5709091}
-    alignment: 9
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 3948
-      y: 4209
+      y: 3034
       width: 1952
-      height: 275
-    spriteID: cc596f49748d85f4a88474740afeaca3
+      height: 194
+    spriteID: 5f0600a8141e7c34284bbe4eb2ff97cd
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -1118,59 +1118,19 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 3948, y: 4209}
-  - name: Sprite-nebo_aseprite_Frame_50
+    uvTransform: {x: 5920, y: 3034}
+  - name: Sky_Frame_50
     originalName: 
-    pivot: {x: 0.2768595, y: -1.5709091}
-    alignment: 9
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 5908
-      y: 4209
-      width: 1936
-      height: 275
-    spriteID: bef2b83cc23f2734ebf6eb866ab3ef71
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 5908, y: 4209}
-  - name: Sprite-nebo_aseprite_Frame_51
-    originalName: 
-    pivot: {x: 0.2708333, y: -1.5709091}
-    alignment: 9
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 6268
-      y: 3643
-      width: 1920
-      height: 275
-    spriteID: fc3646440ddbb614c9973645378a7d0b
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 6268, y: 3643}
-  - name: Sprite-nebo_aseprite_Frame_52
-    originalName: 
-    pivot: {x: 0.27480918, y: -1.5709091}
+    pivot: {x: 0.2768595, y: -2.6443298}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
       x: 4
-      y: 4492
-      width: 1834
-      height: 275
-    spriteID: 3bd4f812d32b9384493586d6d5c9c6a0
+      y: 3236
+      width: 1936
+      height: 194
+    spriteID: 792e2f643e9f05f4a9ab4156b8ae6510
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -1178,19 +1138,119 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 4, y: 4492}
-  - name: Sprite-nebo_aseprite_Frame_53
+    uvTransform: {x: 4, y: 3236}
+  - name: Sky_Frame_51
     originalName: 
-    pivot: {x: 0.26608506, y: -1.5709091}
+    pivot: {x: 0.2708333, y: -2.6443298}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1948
+      y: 3236
+      width: 1920
+      height: 194
+    spriteID: 064abe0db162a5244949272d737db14f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1948, y: 3236}
+  - name: Sky_Frame_52
+    originalName: 
+    pivot: {x: 0.27480918, y: -2.6443298}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 6300
+      y: 2630
+      width: 1834
+      height: 194
+    spriteID: 155c4d5cc1c76344b9fc3698a210a643
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 6300, y: 2630}
+  - name: Sky_Frame_53
+    originalName: 
+    pivot: {x: 0.26608506, y: -2.6443298}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3876
+      y: 3236
+      width: 1834
+      height: 194
+    spriteID: 1b058a4cea42eb44dbe2578fa0f28077
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 3876, y: 3236}
+  - name: Sky_Frame_54
+    originalName: 
+    pivot: {x: 0.25736097, y: -2.6443298}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 5718
+      y: 3236
+      width: 1834
+      height: 194
+    spriteID: fe0fd610616028541827d4f0474b0ca6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 5718, y: 3236}
+  - name: Sky_Frame_55
+    originalName: 
+    pivot: {x: 0.24863686, y: -2.6443298}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 3438
+      width: 1834
+      height: 194
+    spriteID: d2b4dd054481fb648935fd80de2d76f6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 3438}
+  - name: Sky_Frame_56
+    originalName: 
+    pivot: {x: 0.23991275, y: -2.6443298}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
       x: 1846
-      y: 4492
+      y: 3438
       width: 1834
-      height: 275
-    spriteID: d6dfdf0c3329cf04aa0d8bae3a808cad
+      height: 194
+    spriteID: 772385bb6c357a74bb2904e84f86af96
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -1198,79 +1258,19 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 1846, y: 4492}
-  - name: Sprite-nebo_aseprite_Frame_54
+    uvTransform: {x: 1846, y: 3438}
+  - name: Sky_Frame_57
     originalName: 
-    pivot: {x: 0.25736097, y: -1.5709091}
+    pivot: {x: 0.23245615, y: -2.6443298}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
       x: 3688
-      y: 4492
-      width: 1834
-      height: 275
-    spriteID: 205265c6ca9e11b41ba233aaa7c3b51d
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 3688, y: 4492}
-  - name: Sprite-nebo_aseprite_Frame_55
-    originalName: 
-    pivot: {x: 0.24863686, y: -1.5709091}
-    alignment: 9
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 5530
-      y: 4492
-      width: 1834
-      height: 275
-    spriteID: 678dca546d9735045b03f3bb24c8b062
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 5530, y: 4492}
-  - name: Sprite-nebo_aseprite_Frame_56
-    originalName: 
-    pivot: {x: 0.23991275, y: -1.5709091}
-    alignment: 9
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 4
-      y: 4775
-      width: 1834
-      height: 275
-    spriteID: 90679e93f6ad25840b909d75d81279da
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 4, y: 4775}
-  - name: Sprite-nebo_aseprite_Frame_57
-    originalName: 
-    pivot: {x: 0.23245615, y: -1.5709091}
-    alignment: 9
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 1846
-      y: 4775
+      y: 3438
       width: 1824
-      height: 275
-    spriteID: 42e858c33dbb6aa429910b14f843d384
+      height: 194
+    spriteID: c94e8ee797b51794da0c76f0b2c7feda
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -1278,19 +1278,19 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 1846, y: 4775}
-  - name: Sprite-nebo_aseprite_Frame_58
+    uvTransform: {x: 3688, y: 3438}
+  - name: Sky_Frame_58
     originalName: 
-    pivot: {x: 0.2256637, y: -1.5709091}
+    pivot: {x: 0.2256637, y: -2.6443298}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 3678
-      y: 4775
+      x: 5520
+      y: 3438
       width: 1808
-      height: 275
-    spriteID: 03a09be0c809a8542b95b70fe24394fe
+      height: 194
+    spriteID: 5623e084a942a994294e6789319850c1
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -1298,19 +1298,19 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 3678, y: 4775}
-  - name: Sprite-nebo_aseprite_Frame_59
+    uvTransform: {x: 5520, y: 3438}
+  - name: Sky_Frame_59
     originalName: 
-    pivot: {x: 0.21874997, y: -1.5709091}
+    pivot: {x: 0.21874997, y: -2.6443298}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 6396
-      y: 3360
+      x: 4
+      y: 3640
       width: 1792
-      height: 275
-    spriteID: 6ae670e314b92a84ca78dba51ee06352
+      height: 194
+    spriteID: 944f925bba6361e40aa7ed38f1d56a8c
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -1318,19 +1318,19 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 6396, y: 3360}
-  - name: Sprite-nebo_aseprite_Frame_60
+    uvTransform: {x: 4, y: 3640}
+  - name: Sky_Frame_60
     originalName: 
-    pivot: {x: 0.21171172, y: -1.5709091}
+    pivot: {x: 0.21171172, y: -2.6443298}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 5494
-      y: 4775
+      x: 1804
+      y: 3640
       width: 1776
-      height: 275
-    spriteID: d5939bf6d503af844844976fc0f910a7
+      height: 194
+    spriteID: 212f1ee6627c1574c8179fa2588670f0
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -1338,19 +1338,79 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 5494, y: 4775}
-  - name: Sprite-nebo_aseprite_Frame_61
+    uvTransform: {x: 1804, y: 3640}
+  - name: Sky_Frame_61
     originalName: 
-    pivot: {x: 0.21857922, y: -1.5709091}
+    pivot: {x: 0.21857922, y: -2.6443298}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 6460
+      y: 2428
+      width: 1647
+      height: 194
+    spriteID: 4e6d5d5132956c34b9866d7de8ee251e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 6460, y: 2428}
+  - name: Sky_Frame_62
+    originalName: 
+    pivot: {x: 0.20886461, y: -2.6443298}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3588
+      y: 3640
+      width: 1647
+      height: 194
+    spriteID: 031a85c2781aca544a4e8891a84895d8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 3588, y: 3640}
+  - name: Sky_Frame_63
+    originalName: 
+    pivot: {x: 0.19914997, y: -2.6443298}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 5243
+      y: 3640
+      width: 1647
+      height: 194
+    spriteID: b6bb5e7a961b3a74ea766244a38faebb
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 5243, y: 3640}
+  - name: Sky_Frame_64
+    originalName: 
+    pivot: {x: 0.18943532, y: -2.6443298}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
       x: 4
-      y: 5058
+      y: 3842
       width: 1647
-      height: 275
-    spriteID: 30788ff4be6680b46bf6561b4bc00e8d
+      height: 194
+    spriteID: bb9e6095cd3f46e4a836770bef04940b
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -1358,19 +1418,19 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 4, y: 5058}
-  - name: Sprite-nebo_aseprite_Frame_62
+    uvTransform: {x: 4, y: 3842}
+  - name: Sky_Frame_65
     originalName: 
-    pivot: {x: 0.20886461, y: -1.5709091}
+    pivot: {x: 0.17972071, y: -2.6443298}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
       x: 1659
-      y: 5058
+      y: 3842
       width: 1647
-      height: 275
-    spriteID: 6ebe23b881a61f842ae5205019f847c5
+      height: 194
+    spriteID: 7165a48784779e4428da0d3963dbdc6c
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -1378,19 +1438,19 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 1659, y: 5058}
-  - name: Sprite-nebo_aseprite_Frame_63
+    uvTransform: {x: 1659, y: 3842}
+  - name: Sky_Frame_66
     originalName: 
-    pivot: {x: 0.19914997, y: -1.5709091}
+    pivot: {x: 0.17000607, y: -2.6443298}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
       x: 3314
-      y: 5058
+      y: 3842
       width: 1647
-      height: 275
-    spriteID: d4d4443292919d74380c19d4c22a317d
+      height: 194
+    spriteID: 01071485bb1ee2440b44a748df6cbd67
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -1398,19 +1458,19 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 3314, y: 5058}
-  - name: Sprite-nebo_aseprite_Frame_64
+    uvTransform: {x: 3314, y: 3842}
+  - name: Sky_Frame_67
     originalName: 
-    pivot: {x: 0.18943532, y: -1.5709091}
+    pivot: {x: 0.16029146, y: -2.6443298}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
       x: 4969
-      y: 5058
+      y: 3842
       width: 1647
-      height: 275
-    spriteID: c3dfb71b245e11c4db333a47f95ee8b9
+      height: 194
+    spriteID: d73db512780bfea4fa6e22ab0b2f81e4
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -1418,19 +1478,19 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 4969, y: 5058}
-  - name: Sprite-nebo_aseprite_Frame_65
+    uvTransform: {x: 4969, y: 3842}
+  - name: Sky_Frame_68
     originalName: 
-    pivot: {x: 0.17972071, y: -1.5709091}
+    pivot: {x: 0.15057682, y: -2.6443298}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
       x: 4
-      y: 5341
+      y: 4044
       width: 1647
-      height: 275
-    spriteID: bfdcadd1b081cb245a98688d393d20b3
+      height: 194
+    spriteID: ce8b9e6f8bc970543b709fcebb78d44d
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -1438,79 +1498,19 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 4, y: 5341}
-  - name: Sprite-nebo_aseprite_Frame_66
+    uvTransform: {x: 4, y: 4044}
+  - name: Sky_Frame_69
     originalName: 
-    pivot: {x: 0.17000607, y: -1.5709091}
+    pivot: {x: 0.14215685, y: -2.6443298}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
       x: 1659
-      y: 5341
-      width: 1647
-      height: 275
-    spriteID: 057c7227832f1d846a3aefbd86fe51a2
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 1659, y: 5341}
-  - name: Sprite-nebo_aseprite_Frame_67
-    originalName: 
-    pivot: {x: 0.16029146, y: -1.5709091}
-    alignment: 9
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 3314
-      y: 5341
-      width: 1647
-      height: 275
-    spriteID: 25138b8cd8588ae4593a76f7ffc4dd47
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 3314, y: 5341}
-  - name: Sprite-nebo_aseprite_Frame_68
-    originalName: 
-    pivot: {x: 0.15057682, y: -1.5709091}
-    alignment: 9
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 4969
-      y: 5341
-      width: 1647
-      height: 275
-    spriteID: 833db7c5d8b55b74eb1364e5e1e7797f
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 4969, y: 5341}
-  - name: Sprite-nebo_aseprite_Frame_69
-    originalName: 
-    pivot: {x: 0.14215685, y: -1.5709091}
-    alignment: 9
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 6554
-      y: 2519
+      y: 4044
       width: 1632
-      height: 275
-    spriteID: f629bb0a59c94794cb6e2f0be9b349e1
+      height: 194
+    spriteID: 2e034e9f32930d647b7258ddf0607965
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -1518,19 +1518,19 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 6554, y: 2519}
-  - name: Sprite-nebo_aseprite_Frame_70
+    uvTransform: {x: 1659, y: 4044}
+  - name: Sky_Frame_70
     originalName: 
-    pivot: {x: 0.13366339, y: -1.5709091}
+    pivot: {x: 0.13366339, y: -2.6443298}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
       x: 6570
-      y: 2236
+      y: 2226
       width: 1616
-      height: 275
-    spriteID: 59fb3cad65f2a0b44822c696b46d05f0
+      height: 194
+    spriteID: a0db67d503277e046b9726315f5ea921
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -1538,19 +1538,19 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 6570, y: 2236}
-  - name: Sprite-nebo_aseprite_Frame_71
+    uvTransform: {x: 6570, y: 2226}
+  - name: Sky_Frame_71
     originalName: 
-    pivot: {x: 0.12499999, y: -1.5709091}
+    pivot: {x: 0.12499999, y: -2.6443298}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 4
-      y: 5624
+      x: 6577
+      y: 1822
       width: 1600
-      height: 275
-    spriteID: 85b22e605a3f9de4297941677b81fac6
+      height: 194
+    spriteID: e205260935b1b314ca01da59e9bca1b9
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -1558,19 +1558,19 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 4, y: 5624}
-  - name: Sprite-nebo_aseprite_Frame_72
+    uvTransform: {x: 6577, y: 1822}
+  - name: Sky_Frame_72
     originalName: 
-    pivot: {x: 0.11616164, y: -1.5709091}
+    pivot: {x: 0.11616164, y: -2.6443298}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 1612
-      y: 5624
+      x: 6577
+      y: 2024
       width: 1584
-      height: 275
-    spriteID: 214b19b2dc4a0674495ab7b0a6cf412a
+      height: 194
+    spriteID: ebda6dfb702fa2b478f5f83f869cb107
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -1578,19 +1578,19 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 1612, y: 5624}
-  - name: Sprite-nebo_aseprite_Frame_73
+    uvTransform: {x: 6577, y: 2024}
+  - name: Sky_Frame_73
     originalName: 
-    pivot: {x: 0.10714286, y: -1.5709091}
+    pivot: {x: 0.10714286, y: -2.6443298}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 3204
-      y: 5624
+      x: 3299
+      y: 4044
       width: 1568
-      height: 275
-    spriteID: e837d67dfadd93044892ef6587527bc6
+      height: 194
+    spriteID: 84f6cba73e911a54b911c941000e1979
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -1598,19 +1598,19 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 3204, y: 5624}
-  - name: Sprite-nebo_aseprite_Frame_74
+    uvTransform: {x: 3299, y: 4044}
+  - name: Sky_Frame_74
     originalName: 
-    pivot: {x: 0.09793813, y: -1.5709091}
+    pivot: {x: 0.09793813, y: -2.6443298}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
       x: 6624
-      y: 5058
+      y: 3842
       width: 1552
-      height: 275
-    spriteID: f1ad3eb5f2cf45943a64079d2118f9ca
+      height: 194
+    spriteID: ca0d5502507dba64da5358b758d81dba
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -1618,19 +1618,19 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 6624, y: 5058}
-  - name: Sprite-nebo_aseprite_Frame_75
+    uvTransform: {x: 6624, y: 3842}
+  - name: Sky_Frame_75
     originalName: 
-    pivot: {x: 0.08854168, y: -1.5709091}
+    pivot: {x: 0.08854168, y: -2.6443298}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 6624
-      y: 5341
+      x: 4875
+      y: 4044
       width: 1536
-      height: 275
-    spriteID: b06e574987b2afd47b7aea96610b3425
+      height: 194
+    spriteID: 0c173b2b2a1e4414dbe366e7c8810015
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -1638,19 +1638,39 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 6624, y: 5341}
-  - name: Sprite-nebo_aseprite_Frame_76
+    uvTransform: {x: 4875, y: 4044}
+  - name: Sky_Frame_76
     originalName: 
-    pivot: {x: 0.08196723, y: -1.5709091}
+    pivot: {x: 0.078947365, y: -2.6443298}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 6419
+      y: 4044
+      width: 1520
+      height: 194
+    spriteID: 8bd7141e4631a044aafd6cdf4c8a7397
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 6419, y: 4044}
+  - name: Sky_Frame_77
+    originalName: 
+    pivot: {x: 0.069148906, y: -2.6443298}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
       x: 4
-      y: 5907
-      width: 1525
-      height: 275
-    spriteID: 596d26c2a9b38454cae11687dcf57cf5
+      y: 4246
+      width: 1504
+      height: 194
+    spriteID: 854a9b26aebf9b3478dd179912f424b9
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -1658,19 +1678,19 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 4, y: 5907}
-  - name: Sprite-nebo_aseprite_Frame_77
+    uvTransform: {x: 4, y: 4246}
+  - name: Sky_Frame_78
     originalName: 
-    pivot: {x: 0.08196723, y: -1.5709091}
+    pivot: {x: 0.059139792, y: -2.6443298}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 1537
-      y: 5907
-      width: 1525
-      height: 275
-    spriteID: ac40375c8e792b343b93e5efee5361b2
+      x: 1516
+      y: 4246
+      width: 1488
+      height: 194
+    spriteID: 561223ccd8650714e804d7d23e20e7b0
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -1678,19 +1698,19 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 1537, y: 5907}
-  - name: Sprite-nebo_aseprite_Frame_78
+    uvTransform: {x: 1516, y: 4246}
+  - name: Sky_Frame_79
     originalName: 
-    pivot: {x: 0.08196723, y: -1.5709091}
+    pivot: {x: 0.048913028, y: -2.6443298}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 3070
-      y: 5907
-      width: 1525
-      height: 275
-    spriteID: 94c853b3c09ec344c9f57f68db55a3cc
+      x: 3012
+      y: 4246
+      width: 1472
+      height: 194
+    spriteID: 21bac09eec6cd2d4099cdadb36a58a3c
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -1698,19 +1718,19 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 3070, y: 5907}
-  - name: Sprite-nebo_aseprite_Frame_79
+    uvTransform: {x: 3012, y: 4246}
+  - name: Sky_Frame_80
     originalName: 
-    pivot: {x: 0.08196723, y: -1.5709091}
+    pivot: {x: 0.03846156, y: -2.6443298}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 4603
-      y: 5907
-      width: 1525
-      height: 275
-    spriteID: c16b5b416e3096046afbe99912ae7088
+      x: 4492
+      y: 4246
+      width: 1456
+      height: 194
+    spriteID: 4e3e7f8e934b3c148883eb36af69b2a3
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -1718,19 +1738,19 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 4603, y: 5907}
-  - name: Sprite-nebo_aseprite_Frame_80
+    uvTransform: {x: 4492, y: 4246}
+  - name: Sky_Frame_81
     originalName: 
-    pivot: {x: 0.08196723, y: -1.5709091}
+    pivot: {x: 0.027777776, y: -2.6443298}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 6136
-      y: 5907
-      width: 1525
-      height: 275
-    spriteID: 5eca5eb27a138f34195960d4768117f3
+      x: 5956
+      y: 4246
+      width: 1440
+      height: 194
+    spriteID: 3dc3905db64f67b4ebf3ff19abda4105
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -1738,39 +1758,19 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 6136, y: 5907}
-  - name: Sprite-nebo_aseprite_Frame_81
+    uvTransform: {x: 5956, y: 4246}
+  - name: Sky_Frame_82
     originalName: 
-    pivot: {x: 0.08196723, y: -1.5709091}
-    alignment: 9
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 4
-      y: 6190
-      width: 1525
-      height: 275
-    spriteID: a7b3158161da33b4c8cbbcb31a208aca
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 4, y: 6190}
-  - name: Sprite-nebo_aseprite_Frame_82
-    originalName: 
-    pivot: {x: 0.087719314, y: -1.5709091}
+    pivot: {x: 0.018126862, y: -2.6443298}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
       x: 4
-      y: 6473
-      width: 1425
-      height: 275
-    spriteID: 0bfad5e6384a9df45837342d38303753
+      y: 4448
+      width: 1324
+      height: 194
+    spriteID: cc1180a83fb8df2478d2e79736d8b846
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -1778,19 +1778,19 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 4, y: 6473}
-  - name: Sprite-nebo_aseprite_Frame_83
+    uvTransform: {x: 4, y: 4448}
+  - name: Sky_Frame_83
     originalName: 
-    pivot: {x: 0.08674534, y: -1.5709091}
+    pivot: {x: 0.006042308, y: -2.6443298}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 5980
-      y: 6190
-      width: 1441
-      height: 275
-    spriteID: 82b27cfe9bdbb2f4e8bbaeb843152380
+      x: 1336
+      y: 4448
+      width: 1324
+      height: 194
+    spriteID: 9df4c98d4bad47c44a8739ffde8c7f25
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -1798,19 +1798,19 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 5980, y: 6190}
-  - name: Sprite-nebo_aseprite_Frame_84
+    uvTransform: {x: 1336, y: 4448}
+  - name: Sky_Frame_84
     originalName: 
-    pivot: {x: 0.085792735, y: -1.5709091}
+    pivot: {x: -0.006042308, y: -2.6443298}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 4515
-      y: 6190
-      width: 1457
-      height: 275
-    spriteID: e9efbbe8e7a53734984de6f14d6ae62a
+      x: 2668
+      y: 4448
+      width: 1324
+      height: 194
+    spriteID: f567a8054e4c06a4ca9d39a61ce7d2de
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -1818,19 +1818,19 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 4515, y: 6190}
-  - name: Sprite-nebo_aseprite_Frame_85
+    uvTransform: {x: 2668, y: 4448}
+  - name: Sky_Frame_85
     originalName: 
-    pivot: {x: 0.08486085, y: -1.5709091}
+    pivot: {x: -0.018126924, y: -2.6443298}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 3034
-      y: 6190
-      width: 1473
-      height: 275
-    spriteID: 90838dd1982d018419cafb51e9289170
+      x: 4000
+      y: 4448
+      width: 1324
+      height: 194
+    spriteID: a7e966bd41f7dfb46867bef8be359376
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -1838,19 +1838,19 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 3034, y: 6190}
-  - name: Sprite-nebo_aseprite_Frame_86
+    uvTransform: {x: 4000, y: 4448}
+  - name: Sky_Frame_86
     originalName: 
-    pivot: {x: 0.08394898, y: -1.5709091}
+    pivot: {x: -0.03021154, y: -2.6443298}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 1537
-      y: 6190
-      width: 1489
-      height: 275
-    spriteID: 8326c877043782745ae43133951146c9
+      x: 5332
+      y: 4448
+      width: 1324
+      height: 194
+    spriteID: a3cb1ca06c7e84844beac98cbdcd8ba1
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -1858,712 +1858,712 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 1537, y: 6190}
+    uvTransform: {x: 5332, y: 4448}
   spriteSheetImportData: []
   asepriteLayers:
   - layerIndex: 0
-    guid: -1098576266
-    name: Sprite-nebo_aseprite
+    guid: -312994415
+    name: Sky
     layerFlags: 0
     layerType: 0
     blendMode: 0
     cells:
-    - name: Sprite-nebo_aseprite_Frame_0
+    - name: Sky_Frame_0
       frameIndex: 0
       cellRect:
         x: 16
-        y: 432
+        y: 509
         width: 2758
-        height: 271
-      spriteId: 873ccc4915c12d74cb18a94e9fa615ff
-    - name: Sprite-nebo_aseprite_Frame_1
+        height: 194
+      spriteId: 3a3e1511f19453340ade47a226aef1c6
+    - name: Sky_Frame_1
       frameIndex: 1
       cellRect:
         x: 32
-        y: 432
+        y: 509
         width: 2758
-        height: 271
-      spriteId: 4254cc1baae9897489585bfbd88ee83d
-    - name: Sprite-nebo_aseprite_Frame_2
+        height: 194
+      spriteId: c130cdfd4b2e35d4ebc002f2a69f1116
+    - name: Sky_Frame_2
       frameIndex: 2
       cellRect:
         x: 48
-        y: 432
+        y: 509
         width: 2752
-        height: 271
-      spriteId: 0a6e8d5d370759349860d8cc65edd463
-    - name: Sprite-nebo_aseprite_Frame_3
+        height: 194
+      spriteId: fc3134d22f983744094cb204685a4d76
+    - name: Sky_Frame_3
       frameIndex: 3
       cellRect:
         x: 64
-        y: 432
+        y: 509
         width: 2736
-        height: 271
-      spriteId: 20309317da82f8a4995a075c79dc06b3
-    - name: Sprite-nebo_aseprite_Frame_4
+        height: 194
+      spriteId: f285d354dfa6b7d4199a3459891df5fc
+    - name: Sky_Frame_4
       frameIndex: 4
       cellRect:
         x: 80
-        y: 432
+        y: 509
         width: 2720
-        height: 271
-      spriteId: ae7a15387a8ea4347bdff2271d43fe82
-    - name: Sprite-nebo_aseprite_Frame_5
+        height: 194
+      spriteId: 3b4e067dc6acab74b9208852984a7749
+    - name: Sky_Frame_5
       frameIndex: 5
       cellRect:
         x: 96
-        y: 432
+        y: 509
         width: 2704
-        height: 271
-      spriteId: ce0ddcdead1ce4e468c7c712992f979d
-    - name: Sprite-nebo_aseprite_Frame_6
+        height: 194
+      spriteId: 4620c0615d40b4f45a41cb5d620fa183
+    - name: Sky_Frame_6
       frameIndex: 6
       cellRect:
         x: 112
-        y: 432
+        y: 509
         width: 2688
-        height: 271
-      spriteId: 0acb7252d058d08458d3aefae13e027c
-    - name: Sprite-nebo_aseprite_Frame_7
+        height: 194
+      spriteId: 79b2c1b6608d2e24f95bf0cd7548873f
+    - name: Sky_Frame_7
       frameIndex: 7
       cellRect:
         x: 128
-        y: 432
+        y: 509
         width: 2672
-        height: 271
-      spriteId: d7472c2902f3141419fe55f608761d06
-    - name: Sprite-nebo_aseprite_Frame_8
+        height: 194
+      spriteId: 6e6f6e9a8e94884479df6b9be8b013d8
+    - name: Sky_Frame_8
       frameIndex: 8
       cellRect:
         x: 144
-        y: 432
+        y: 509
         width: 2656
-        height: 271
-      spriteId: 54c3bc175a555f14593cfe267ec01ffe
-    - name: Sprite-nebo_aseprite_Frame_9
+        height: 194
+      spriteId: 2d9fbbfc4bd0d0d48a602797a8ba9208
+    - name: Sky_Frame_9
       frameIndex: 9
       cellRect:
         x: 160
-        y: 432
+        y: 509
         width: 2640
-        height: 271
-      spriteId: 0071c6a47e5b0c449840a839d57b4151
-    - name: Sprite-nebo_aseprite_Frame_10
+        height: 194
+      spriteId: 77c0b9e16625c914c96a5e8f8218c96b
+    - name: Sky_Frame_10
       frameIndex: 10
       cellRect:
         x: 192
-        y: 432
+        y: 509
         width: 2608
-        height: 271
-      spriteId: 330428cea25ce7e4da7df96ea6993178
-    - name: Sprite-nebo_aseprite_Frame_11
+        height: 194
+      spriteId: 690e762bebccc684aa90d3a75ad55504
+    - name: Sky_Frame_11
       frameIndex: 11
       cellRect:
         x: 208
-        y: 432
+        y: 509
         width: 2592
-        height: 271
-      spriteId: 6f796ee75d128604daef113e7be94b48
-    - name: Sprite-nebo_aseprite_Frame_12
+        height: 194
+      spriteId: 2f24baa1feb011c47bc02c2c0fe4617f
+    - name: Sky_Frame_12
       frameIndex: 12
       cellRect:
         x: 224
-        y: 432
+        y: 509
         width: 2576
-        height: 271
-      spriteId: f703e798540610e4c945f9213a66f838
-    - name: Sprite-nebo_aseprite_Frame_13
+        height: 194
+      spriteId: 05a003c73c4030d4581e297e16d7b82d
+    - name: Sky_Frame_13
       frameIndex: 13
       cellRect:
         x: 240
-        y: 432
+        y: 509
         width: 2560
-        height: 271
-      spriteId: 2d29255406be839408ab5298d9cf02d6
-    - name: Sprite-nebo_aseprite_Frame_14
+        height: 194
+      spriteId: 731ddb1a1a8fbe24bb22b30f9d357fba
+    - name: Sky_Frame_14
       frameIndex: 14
       cellRect:
         x: 256
-        y: 432
+        y: 509
         width: 2544
-        height: 271
-      spriteId: 48e6bd30f6baf90419f7ad17d802214e
-    - name: Sprite-nebo_aseprite_Frame_15
+        height: 194
+      spriteId: 2a8408a12c29eb94e8bc600df74509d7
+    - name: Sky_Frame_15
       frameIndex: 15
       cellRect:
         x: 272
-        y: 432
+        y: 509
         width: 2528
-        height: 271
-      spriteId: 4a4cd7cf19f170b4ba20f6deb3d41edb
-    - name: Sprite-nebo_aseprite_Frame_16
+        height: 194
+      spriteId: ec8f9895951e7a741bd16ffb20f0e666
+    - name: Sky_Frame_16
       frameIndex: 16
       cellRect:
         x: 288
-        y: 432
+        y: 509
         width: 2380
-        height: 271
-      spriteId: 51328ee426daead438c51f0644be7535
-    - name: Sprite-nebo_aseprite_Frame_17
+        height: 194
+      spriteId: de1954fa0ed7e3d4b95c76899926f6fc
+    - name: Sky_Frame_17
       frameIndex: 17
       cellRect:
         x: 304
-        y: 432
+        y: 509
         width: 2380
-        height: 271
-      spriteId: 39c2a8500a62852419e3b10b9544b0ff
-    - name: Sprite-nebo_aseprite_Frame_18
+        height: 194
+      spriteId: ac0274153144ec041991852cb1ad6425
+    - name: Sky_Frame_18
       frameIndex: 18
       cellRect:
         x: 320
-        y: 432
+        y: 509
         width: 2380
-        height: 271
-      spriteId: 0b8811f667b194d478b5aae557ba8f6b
-    - name: Sprite-nebo_aseprite_Frame_19
+        height: 194
+      spriteId: 6850a4ce061d9e04ca7bc7b386951267
+    - name: Sky_Frame_19
       frameIndex: 19
       cellRect:
         x: 336
-        y: 432
+        y: 509
         width: 2380
-        height: 271
-      spriteId: f9ed51fd6c3f6684484094e5bc848f78
-    - name: Sprite-nebo_aseprite_Frame_20
+        height: 194
+      spriteId: b59a95fc2de52ec49b07c88b766bda78
+    - name: Sky_Frame_20
       frameIndex: 20
       cellRect:
         x: 352
-        y: 432
+        y: 509
         width: 2380
-        height: 271
-      spriteId: e90020a07cf682746b9c889972074b46
-    - name: Sprite-nebo_aseprite_Frame_21
+        height: 194
+      spriteId: 6d5e89c45e97f294d914c923c968bb9c
+    - name: Sky_Frame_21
       frameIndex: 21
       cellRect:
         x: 368
-        y: 432
+        y: 509
         width: 2380
-        height: 271
-      spriteId: 427559a91d217ef4cbf4ec9c3bf17c1f
-    - name: Sprite-nebo_aseprite_Frame_22
+        height: 194
+      spriteId: 132758d15dd39224ea6d77f09d5eeb1f
+    - name: Sky_Frame_22
       frameIndex: 22
       cellRect:
         x: 384
-        y: 432
+        y: 509
         width: 2380
-        height: 271
-      spriteId: 30811a9d99ec04f469942ad2fef4a8ff
-    - name: Sprite-nebo_aseprite_Frame_23
+        height: 194
+      spriteId: f3f354763360d744daa10e54a2e0214f
+    - name: Sky_Frame_23
       frameIndex: 23
       cellRect:
         x: 416
         y: 509
         width: 2380
         height: 194
-      spriteId: c99985243d4d1ba4baeaefc85b5bfda0
-    - name: Sprite-nebo_aseprite_Frame_24
+      spriteId: 7487ac14188228d4cb2a0cf97ce51e7d
+    - name: Sky_Frame_24
       frameIndex: 24
       cellRect:
         x: 448
         y: 509
         width: 2352
         height: 194
-      spriteId: c3cf66d062b87054baa8e474f506f9a9
-    - name: Sprite-nebo_aseprite_Frame_25
+      spriteId: 5630b26f319b9cc41867ccae9e46093b
+    - name: Sky_Frame_25
       frameIndex: 25
       cellRect:
         x: 464
-        y: 432
+        y: 509
         width: 2336
-        height: 271
-      spriteId: 6f5c8f597d6ee974bb64a30a5905bbbd
-    - name: Sprite-nebo_aseprite_Frame_26
+        height: 194
+      spriteId: 8c12a4b3ec11c344ab89d1d349bbb3d8
+    - name: Sky_Frame_26
       frameIndex: 26
       cellRect:
         x: 480
-        y: 432
+        y: 509
         width: 2183
-        height: 271
-      spriteId: 5fc4784288a63ab4c9b40dd88c72731f
-    - name: Sprite-nebo_aseprite_Frame_27
+        height: 194
+      spriteId: 28c4d2f1e2c16a1448fdfe9ad3d4a684
+    - name: Sky_Frame_27
       frameIndex: 27
       cellRect:
         x: 496
-        y: 432
+        y: 509
         width: 2183
-        height: 271
-      spriteId: 2fb755025d8d57549af9ab98018d1e6a
-    - name: Sprite-nebo_aseprite_Frame_28
+        height: 194
+      spriteId: 9c28cacc93dcb2648aaadc638b228f39
+    - name: Sky_Frame_28
       frameIndex: 28
       cellRect:
         x: 512
-        y: 432
+        y: 509
         width: 2183
-        height: 271
-      spriteId: dfcf016598a1fa94b82ddd3cc2e0f776
-    - name: Sprite-nebo_aseprite_Frame_29
+        height: 194
+      spriteId: 143ac2c6e222a4349adba5fa8a7cb296
+    - name: Sky_Frame_29
       frameIndex: 29
       cellRect:
         x: 528
-        y: 432
+        y: 509
         width: 2183
-        height: 271
-      spriteId: 2bc4a231d5ae1d7459aa88c44e871d86
-    - name: Sprite-nebo_aseprite_Frame_30
+        height: 194
+      spriteId: 12922b0041eade048b2d509a454e2dc4
+    - name: Sky_Frame_30
       frameIndex: 30
       cellRect:
         x: 544
-        y: 432
+        y: 509
         width: 2183
-        height: 271
-      spriteId: 5f6d2ad053e4bcb4d98d5ee6542df134
-    - name: Sprite-nebo_aseprite_Frame_31
+        height: 194
+      spriteId: 5ce56d0a4eb33884b9ce1705216dce0e
+    - name: Sky_Frame_31
       frameIndex: 31
       cellRect:
         x: 560
-        y: 432
+        y: 509
         width: 2183
-        height: 271
-      spriteId: 70c8b667e73f26843aa71b383eb5eb7d
-    - name: Sprite-nebo_aseprite_Frame_32
+        height: 194
+      spriteId: 4f463cf7340033c47908b814c7499e05
+    - name: Sky_Frame_32
       frameIndex: 32
       cellRect:
         x: 576
-        y: 432
+        y: 513
         width: 2183
-        height: 275
-      spriteId: ce4289f790408b24eace31c8c8f00618
-    - name: Sprite-nebo_aseprite_Frame_33
+        height: 194
+      spriteId: a473a2080a272c84bbbf89ece69ccc33
+    - name: Sky_Frame_33
       frameIndex: 33
       cellRect:
         x: 592
-        y: 432
+        y: 513
         width: 2183
-        height: 275
-      spriteId: 0f244fbef6d2866418237d4cadac6aa1
-    - name: Sprite-nebo_aseprite_Frame_34
+        height: 194
+      spriteId: e7a10faf3591ee14ab2660e1e23a40c5
+    - name: Sky_Frame_34
       frameIndex: 34
       cellRect:
         x: 608
         y: 513
         width: 2183
         height: 194
-      spriteId: faf5027c37dd0c840a0446ca62949cce
-    - name: Sprite-nebo_aseprite_Frame_35
+      spriteId: b708be53fefe8c346a5f0665a47689eb
+    - name: Sky_Frame_35
       frameIndex: 35
       cellRect:
         x: 624
-        y: 432
+        y: 513
         width: 2176
-        height: 275
-      spriteId: f214a581acdbd6244bf6a91bf483ace4
-    - name: Sprite-nebo_aseprite_Frame_36
+        height: 194
+      spriteId: dafaeac3ee4ead34a9563122de5a5d29
+    - name: Sky_Frame_36
       frameIndex: 36
       cellRect:
         x: 640
-        y: 432
+        y: 513
         width: 2160
-        height: 275
-      spriteId: df8dca216f7f27d40b8e7cbb026507e6
-    - name: Sprite-nebo_aseprite_Frame_37
+        height: 194
+      spriteId: 0ab02b2cf6eee8844a89aa55dcd80701
+    - name: Sky_Frame_37
       frameIndex: 37
       cellRect:
         x: 656
-        y: 432
+        y: 513
         width: 2144
-        height: 275
-      spriteId: 02df1954654772542bbbb040c301034c
-    - name: Sprite-nebo_aseprite_Frame_38
+        height: 194
+      spriteId: c11d15046e2b71f44b626455d5aa6c21
+    - name: Sky_Frame_38
       frameIndex: 38
       cellRect:
         x: 672
-        y: 432
+        y: 513
         width: 2128
-        height: 275
-      spriteId: 7eb1bf770b0c1e94c850f24faf32c342
-    - name: Sprite-nebo_aseprite_Frame_39
+        height: 194
+      spriteId: 12630c4d14a46f2468e9647d13dff995
+    - name: Sky_Frame_39
       frameIndex: 39
       cellRect:
         x: 688
-        y: 432
+        y: 513
         width: 2096
-        height: 275
-      spriteId: 6234045f64ab0504c98412c4e7250a90
-    - name: Sprite-nebo_aseprite_Frame_40
+        height: 194
+      spriteId: 93192f5606647894e883aaf7acdb3f48
+    - name: Sky_Frame_40
       frameIndex: 40
       cellRect:
         x: 704
-        y: 432
+        y: 513
         width: 2096
-        height: 275
-      spriteId: a7c3d9c0bfff0ab4a9c365945d64959a
-    - name: Sprite-nebo_aseprite_Frame_41
+        height: 194
+      spriteId: 6686860170f28f844978bb9de833ba36
+    - name: Sky_Frame_41
       frameIndex: 41
       cellRect:
         x: 720
-        y: 432
+        y: 513
         width: 2080
-        height: 275
-      spriteId: 751df9cc11630614b9672466f7866883
-    - name: Sprite-nebo_aseprite_Frame_42
+        height: 194
+      spriteId: 85f2714c7e4d58a4b9cb8b615c2fe05c
+    - name: Sky_Frame_42
       frameIndex: 42
       cellRect:
         x: 736
-        y: 432
+        y: 513
         width: 2064
-        height: 275
-      spriteId: 1424b4ecf836f604e8dda051ad6a3eb6
-    - name: Sprite-nebo_aseprite_Frame_43
+        height: 194
+      spriteId: f042485962d5a334ea7525c3ac528b35
+    - name: Sky_Frame_43
       frameIndex: 43
       cellRect:
         x: 752
-        y: 432
+        y: 513
         width: 1964
-        height: 275
-      spriteId: ce4fc11a95b571d4fa2ea4dfaa800f6b
-    - name: Sprite-nebo_aseprite_Frame_44
+        height: 194
+      spriteId: c2bafdc2fd28bb941a94322d33d1f285
+    - name: Sky_Frame_44
       frameIndex: 44
       cellRect:
         x: 768
-        y: 432
+        y: 513
         width: 1964
-        height: 275
-      spriteId: 7c1e2aa1f797e314193f70c207a368ef
-    - name: Sprite-nebo_aseprite_Frame_45
+        height: 194
+      spriteId: 1ce0fbcdbcc909845bb1d401d1fd6ac4
+    - name: Sky_Frame_45
       frameIndex: 45
       cellRect:
         x: 784
-        y: 432
+        y: 513
         width: 1964
-        height: 275
-      spriteId: 352e968091865954592020741747e781
-    - name: Sprite-nebo_aseprite_Frame_46
+        height: 194
+      spriteId: c0dc25218d6d12b46a2ddb3239fa9702
+    - name: Sky_Frame_46
       frameIndex: 46
       cellRect:
         x: 800
-        y: 432
+        y: 513
         width: 1964
-        height: 275
-      spriteId: e74040e677d1c714689e2b9c00395fd5
-    - name: Sprite-nebo_aseprite_Frame_47
+        height: 194
+      spriteId: e20dfa35b2ac93a418b97dc84e7631f7
+    - name: Sky_Frame_47
       frameIndex: 47
       cellRect:
         x: 816
-        y: 432
+        y: 513
         width: 1964
-        height: 275
-      spriteId: 906c3ab470becbf4a865dc4793e830ab
-    - name: Sprite-nebo_aseprite_Frame_48
+        height: 194
+      spriteId: efaa1f664260ed94d8b9bd65539a70c6
+    - name: Sky_Frame_48
       frameIndex: 48
       cellRect:
         x: 832
-        y: 432
+        y: 513
         width: 1964
-        height: 275
-      spriteId: 0cfea01b1225d794facbe583c701edc8
-    - name: Sprite-nebo_aseprite_Frame_49
+        height: 194
+      spriteId: bf05db5237a85104e81a304ddaba2343
+    - name: Sky_Frame_49
       frameIndex: 49
       cellRect:
         x: 848
-        y: 432
+        y: 513
         width: 1952
-        height: 275
-      spriteId: cc596f49748d85f4a88474740afeaca3
-    - name: Sprite-nebo_aseprite_Frame_50
+        height: 194
+      spriteId: 5f0600a8141e7c34284bbe4eb2ff97cd
+    - name: Sky_Frame_50
       frameIndex: 50
       cellRect:
         x: 864
-        y: 432
+        y: 513
         width: 1936
-        height: 275
-      spriteId: bef2b83cc23f2734ebf6eb866ab3ef71
-    - name: Sprite-nebo_aseprite_Frame_51
+        height: 194
+      spriteId: 792e2f643e9f05f4a9ab4156b8ae6510
+    - name: Sky_Frame_51
       frameIndex: 51
       cellRect:
         x: 880
-        y: 432
+        y: 513
         width: 1920
-        height: 275
-      spriteId: fc3646440ddbb614c9973645378a7d0b
-    - name: Sprite-nebo_aseprite_Frame_52
+        height: 194
+      spriteId: 064abe0db162a5244949272d737db14f
+    - name: Sky_Frame_52
       frameIndex: 52
       cellRect:
         x: 896
-        y: 432
+        y: 513
         width: 1834
-        height: 275
-      spriteId: 3bd4f812d32b9384493586d6d5c9c6a0
-    - name: Sprite-nebo_aseprite_Frame_53
+        height: 194
+      spriteId: 155c4d5cc1c76344b9fc3698a210a643
+    - name: Sky_Frame_53
       frameIndex: 53
       cellRect:
         x: 912
-        y: 432
+        y: 513
         width: 1834
-        height: 275
-      spriteId: d6dfdf0c3329cf04aa0d8bae3a808cad
-    - name: Sprite-nebo_aseprite_Frame_54
+        height: 194
+      spriteId: 1b058a4cea42eb44dbe2578fa0f28077
+    - name: Sky_Frame_54
       frameIndex: 54
       cellRect:
         x: 928
-        y: 432
+        y: 513
         width: 1834
-        height: 275
-      spriteId: 205265c6ca9e11b41ba233aaa7c3b51d
-    - name: Sprite-nebo_aseprite_Frame_55
+        height: 194
+      spriteId: fe0fd610616028541827d4f0474b0ca6
+    - name: Sky_Frame_55
       frameIndex: 55
       cellRect:
         x: 944
-        y: 432
+        y: 513
         width: 1834
-        height: 275
-      spriteId: 678dca546d9735045b03f3bb24c8b062
-    - name: Sprite-nebo_aseprite_Frame_56
+        height: 194
+      spriteId: d2b4dd054481fb648935fd80de2d76f6
+    - name: Sky_Frame_56
       frameIndex: 56
       cellRect:
         x: 960
-        y: 432
+        y: 513
         width: 1834
-        height: 275
-      spriteId: 90679e93f6ad25840b909d75d81279da
-    - name: Sprite-nebo_aseprite_Frame_57
+        height: 194
+      spriteId: 772385bb6c357a74bb2904e84f86af96
+    - name: Sky_Frame_57
       frameIndex: 57
       cellRect:
         x: 976
-        y: 432
+        y: 513
         width: 1824
-        height: 275
-      spriteId: 42e858c33dbb6aa429910b14f843d384
-    - name: Sprite-nebo_aseprite_Frame_58
+        height: 194
+      spriteId: c94e8ee797b51794da0c76f0b2c7feda
+    - name: Sky_Frame_58
       frameIndex: 58
       cellRect:
         x: 992
-        y: 432
+        y: 513
         width: 1808
-        height: 275
-      spriteId: 03a09be0c809a8542b95b70fe24394fe
-    - name: Sprite-nebo_aseprite_Frame_59
+        height: 194
+      spriteId: 5623e084a942a994294e6789319850c1
+    - name: Sky_Frame_59
       frameIndex: 59
       cellRect:
         x: 1008
-        y: 432
+        y: 513
         width: 1792
-        height: 275
-      spriteId: 6ae670e314b92a84ca78dba51ee06352
-    - name: Sprite-nebo_aseprite_Frame_60
+        height: 194
+      spriteId: 944f925bba6361e40aa7ed38f1d56a8c
+    - name: Sky_Frame_60
       frameIndex: 60
       cellRect:
         x: 1024
-        y: 432
+        y: 513
         width: 1776
-        height: 275
-      spriteId: d5939bf6d503af844844976fc0f910a7
-    - name: Sprite-nebo_aseprite_Frame_61
+        height: 194
+      spriteId: 212f1ee6627c1574c8179fa2588670f0
+    - name: Sky_Frame_61
       frameIndex: 61
       cellRect:
         x: 1040
-        y: 432
+        y: 513
         width: 1647
-        height: 275
-      spriteId: 30788ff4be6680b46bf6561b4bc00e8d
-    - name: Sprite-nebo_aseprite_Frame_62
+        height: 194
+      spriteId: 4e6d5d5132956c34b9866d7de8ee251e
+    - name: Sky_Frame_62
       frameIndex: 62
       cellRect:
         x: 1056
-        y: 432
+        y: 513
         width: 1647
-        height: 275
-      spriteId: 6ebe23b881a61f842ae5205019f847c5
-    - name: Sprite-nebo_aseprite_Frame_63
+        height: 194
+      spriteId: 031a85c2781aca544a4e8891a84895d8
+    - name: Sky_Frame_63
       frameIndex: 63
       cellRect:
         x: 1072
-        y: 432
+        y: 513
         width: 1647
-        height: 275
-      spriteId: d4d4443292919d74380c19d4c22a317d
-    - name: Sprite-nebo_aseprite_Frame_64
+        height: 194
+      spriteId: b6bb5e7a961b3a74ea766244a38faebb
+    - name: Sky_Frame_64
       frameIndex: 64
       cellRect:
         x: 1088
-        y: 432
+        y: 513
         width: 1647
-        height: 275
-      spriteId: c3dfb71b245e11c4db333a47f95ee8b9
-    - name: Sprite-nebo_aseprite_Frame_65
+        height: 194
+      spriteId: bb9e6095cd3f46e4a836770bef04940b
+    - name: Sky_Frame_65
       frameIndex: 65
       cellRect:
         x: 1104
-        y: 432
+        y: 513
         width: 1647
-        height: 275
-      spriteId: bfdcadd1b081cb245a98688d393d20b3
-    - name: Sprite-nebo_aseprite_Frame_66
+        height: 194
+      spriteId: 7165a48784779e4428da0d3963dbdc6c
+    - name: Sky_Frame_66
       frameIndex: 66
       cellRect:
         x: 1120
-        y: 432
+        y: 513
         width: 1647
-        height: 275
-      spriteId: 057c7227832f1d846a3aefbd86fe51a2
-    - name: Sprite-nebo_aseprite_Frame_67
+        height: 194
+      spriteId: 01071485bb1ee2440b44a748df6cbd67
+    - name: Sky_Frame_67
       frameIndex: 67
       cellRect:
         x: 1136
-        y: 432
+        y: 513
         width: 1647
-        height: 275
-      spriteId: 25138b8cd8588ae4593a76f7ffc4dd47
-    - name: Sprite-nebo_aseprite_Frame_68
+        height: 194
+      spriteId: d73db512780bfea4fa6e22ab0b2f81e4
+    - name: Sky_Frame_68
       frameIndex: 68
       cellRect:
         x: 1152
-        y: 432
+        y: 513
         width: 1647
-        height: 275
-      spriteId: 833db7c5d8b55b74eb1364e5e1e7797f
-    - name: Sprite-nebo_aseprite_Frame_69
+        height: 194
+      spriteId: ce8b9e6f8bc970543b709fcebb78d44d
+    - name: Sky_Frame_69
       frameIndex: 69
       cellRect:
         x: 1168
-        y: 432
+        y: 513
         width: 1632
-        height: 275
-      spriteId: f629bb0a59c94794cb6e2f0be9b349e1
-    - name: Sprite-nebo_aseprite_Frame_70
+        height: 194
+      spriteId: 2e034e9f32930d647b7258ddf0607965
+    - name: Sky_Frame_70
       frameIndex: 70
       cellRect:
         x: 1184
-        y: 432
+        y: 513
         width: 1616
-        height: 275
-      spriteId: 59fb3cad65f2a0b44822c696b46d05f0
-    - name: Sprite-nebo_aseprite_Frame_71
+        height: 194
+      spriteId: a0db67d503277e046b9726315f5ea921
+    - name: Sky_Frame_71
       frameIndex: 71
       cellRect:
         x: 1200
-        y: 432
+        y: 513
         width: 1600
-        height: 275
-      spriteId: 85b22e605a3f9de4297941677b81fac6
-    - name: Sprite-nebo_aseprite_Frame_72
+        height: 194
+      spriteId: e205260935b1b314ca01da59e9bca1b9
+    - name: Sky_Frame_72
       frameIndex: 72
       cellRect:
         x: 1216
-        y: 432
+        y: 513
         width: 1584
-        height: 275
-      spriteId: 214b19b2dc4a0674495ab7b0a6cf412a
-    - name: Sprite-nebo_aseprite_Frame_73
+        height: 194
+      spriteId: ebda6dfb702fa2b478f5f83f869cb107
+    - name: Sky_Frame_73
       frameIndex: 73
       cellRect:
         x: 1232
-        y: 432
+        y: 513
         width: 1568
-        height: 275
-      spriteId: e837d67dfadd93044892ef6587527bc6
-    - name: Sprite-nebo_aseprite_Frame_74
+        height: 194
+      spriteId: 84f6cba73e911a54b911c941000e1979
+    - name: Sky_Frame_74
       frameIndex: 74
       cellRect:
         x: 1248
-        y: 432
+        y: 513
         width: 1552
-        height: 275
-      spriteId: f1ad3eb5f2cf45943a64079d2118f9ca
-    - name: Sprite-nebo_aseprite_Frame_75
+        height: 194
+      spriteId: ca0d5502507dba64da5358b758d81dba
+    - name: Sky_Frame_75
       frameIndex: 75
       cellRect:
         x: 1264
-        y: 432
+        y: 513
         width: 1536
-        height: 275
-      spriteId: b06e574987b2afd47b7aea96610b3425
-    - name: Sprite-nebo_aseprite_Frame_76
+        height: 194
+      spriteId: 0c173b2b2a1e4414dbe366e7c8810015
+    - name: Sky_Frame_76
       frameIndex: 76
       cellRect:
-        x: 1275
-        y: 432
-        width: 1525
-        height: 275
-      spriteId: 596d26c2a9b38454cae11687dcf57cf5
-    - name: Sprite-nebo_aseprite_Frame_77
+        x: 1280
+        y: 513
+        width: 1520
+        height: 194
+      spriteId: 8bd7141e4631a044aafd6cdf4c8a7397
+    - name: Sky_Frame_77
       frameIndex: 77
       cellRect:
-        x: 1275
-        y: 432
-        width: 1525
-        height: 275
-      spriteId: ac40375c8e792b343b93e5efee5361b2
-    - name: Sprite-nebo_aseprite_Frame_78
+        x: 1296
+        y: 513
+        width: 1504
+        height: 194
+      spriteId: 854a9b26aebf9b3478dd179912f424b9
+    - name: Sky_Frame_78
       frameIndex: 78
       cellRect:
-        x: 1275
-        y: 432
-        width: 1525
-        height: 275
-      spriteId: 94c853b3c09ec344c9f57f68db55a3cc
-    - name: Sprite-nebo_aseprite_Frame_79
+        x: 1312
+        y: 513
+        width: 1488
+        height: 194
+      spriteId: 561223ccd8650714e804d7d23e20e7b0
+    - name: Sky_Frame_79
       frameIndex: 79
       cellRect:
-        x: 1275
-        y: 432
-        width: 1525
-        height: 275
-      spriteId: c16b5b416e3096046afbe99912ae7088
-    - name: Sprite-nebo_aseprite_Frame_80
+        x: 1328
+        y: 513
+        width: 1472
+        height: 194
+      spriteId: 21bac09eec6cd2d4099cdadb36a58a3c
+    - name: Sky_Frame_80
       frameIndex: 80
       cellRect:
-        x: 1275
-        y: 432
-        width: 1525
-        height: 275
-      spriteId: 5eca5eb27a138f34195960d4768117f3
-    - name: Sprite-nebo_aseprite_Frame_81
+        x: 1344
+        y: 513
+        width: 1456
+        height: 194
+      spriteId: 4e3e7f8e934b3c148883eb36af69b2a3
+    - name: Sky_Frame_81
       frameIndex: 81
       cellRect:
-        x: 1275
-        y: 432
-        width: 1525
-        height: 275
-      spriteId: a7b3158161da33b4c8cbbcb31a208aca
-    - name: Sprite-nebo_aseprite_Frame_82
+        x: 1360
+        y: 513
+        width: 1440
+        height: 194
+      spriteId: 3dc3905db64f67b4ebf3ff19abda4105
+    - name: Sky_Frame_82
       frameIndex: 82
       cellRect:
-        x: 1275
-        y: 432
-        width: 1425
-        height: 275
-      spriteId: 0bfad5e6384a9df45837342d38303753
-    - name: Sprite-nebo_aseprite_Frame_83
+        x: 1376
+        y: 513
+        width: 1324
+        height: 194
+      spriteId: cc1180a83fb8df2478d2e79736d8b846
+    - name: Sky_Frame_83
       frameIndex: 83
       cellRect:
-        x: 1275
-        y: 432
-        width: 1441
-        height: 275
-      spriteId: 82b27cfe9bdbb2f4e8bbaeb843152380
-    - name: Sprite-nebo_aseprite_Frame_84
+        x: 1392
+        y: 513
+        width: 1324
+        height: 194
+      spriteId: 9df4c98d4bad47c44a8739ffde8c7f25
+    - name: Sky_Frame_84
       frameIndex: 84
       cellRect:
-        x: 1275
-        y: 432
-        width: 1457
-        height: 275
-      spriteId: e9efbbe8e7a53734984de6f14d6ae62a
-    - name: Sprite-nebo_aseprite_Frame_85
+        x: 1408
+        y: 513
+        width: 1324
+        height: 194
+      spriteId: f567a8054e4c06a4ca9d39a61ce7d2de
+    - name: Sky_Frame_85
       frameIndex: 85
       cellRect:
-        x: 1275
-        y: 432
-        width: 1473
-        height: 275
-      spriteId: 90838dd1982d018419cafb51e9289170
-    - name: Sprite-nebo_aseprite_Frame_86
+        x: 1424
+        y: 513
+        width: 1324
+        height: 194
+      spriteId: a7e966bd41f7dfb46867bef8be359376
+    - name: Sky_Frame_86
       frameIndex: 86
       cellRect:
-        x: 1275
-        y: 432
-        width: 1489
-        height: 275
-      spriteId: 8326c877043782745ae43133951146c9
+        x: 1440
+        y: 513
+        width: 1324
+        height: 194
+      spriteId: a3cb1ca06c7e84844beac98cbdcd8ba1
     linkedCells: []
     parentIndex: -1
   platformSettings: []

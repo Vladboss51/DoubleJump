@@ -8,7 +8,7 @@ public class Door : MonoBehaviour
 
      [SerializeField] private GameObject _door;
 
-    public void Open() 
+    public void Open()
     { 
         _door.SetActive(false);
     }

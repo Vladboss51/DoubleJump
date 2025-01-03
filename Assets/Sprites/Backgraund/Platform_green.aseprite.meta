@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 4f3c184e81bcde1409cdd5b8af83e2a1
+guid: 99ccdbb1c158bcf41a38307f2c01333b
 ScriptedImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -119,18 +119,18 @@ ScriptedImporter:
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
   animatedSpriteImportData:
-  - name: Sprite-zadniy_aseprite
+  - name: Platform_green
     originalName: 
-    pivot: {x: 0.5, y: 0}
+    pivot: {x: 0.5, y: -0.72727275}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
       x: 4
       y: 4
-      width: 1360
-      height: 720
-    spriteID: 44969410ba38bb34d8ff089cd56c9cce
+      width: 44
+      height: 22
+    spriteID: a1564865b0130454ea4b50be1c706802
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -142,23 +142,23 @@ ScriptedImporter:
   spriteSheetImportData: []
   asepriteLayers:
   - layerIndex: 0
-    guid: -263480493
-    name: Sprite-zadniy_aseprite
+    guid: 1968928379
+    name: Platform_green
     layerFlags: 0
     layerType: 0
     blendMode: 0
     cells:
-    - name: Sprite-zadniy_aseprite
+    - name: Platform_green
       frameIndex: 0
       cellRect:
-        x: 0
-        y: 0
-        width: 1360
-        height: 720
-      spriteId: 44969410ba38bb34d8ff089cd56c9cce
+        x: 2
+        y: 16
+        width: 44
+        height: 22
+      spriteId: a1564865b0130454ea4b50be1c706802
     linkedCells: []
     parentIndex: -1
   platformSettings: []
   secondarySpriteTextures: []
   spritePackingTag: 
-  canvasSize: {x: 1360, y: 720}
+  canvasSize: {x: 48, y: 48}

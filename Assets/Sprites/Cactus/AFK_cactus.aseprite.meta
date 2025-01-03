@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 2eeb3e46537243642a23ca9f2bef7e2e
+guid: 25e4fa9a2c8d644449d8ed710fba3b2b
 ScriptedImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -119,18 +119,38 @@ ScriptedImporter:
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
   animatedSpriteImportData:
-  - name: Jump pavuk sprite_Frame_0
+  - name: AFK_cactus_Frame_0
     originalName: 
-    pivot: {x: 0.24324325, y: 0}
+    pivot: {x: 0.33333334, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 36
+      y: 4
+      width: 24
+      height: 27
+    spriteID: dc76546cc88d3b14fbee4675953f4d11
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 36, y: 4}
+  - name: AFK_cactus_Frame_1
+    originalName: 
+    pivot: {x: 0.33333334, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
       x: 4
-      y: 37
-      width: 37
-      height: 18
-    spriteID: b29f15d3a82582f4d9b5cf835f3265f5
+      y: 41
+      width: 24
+      height: 28
+    spriteID: 2646a9fffb236fa429260068ad625bc3
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -138,39 +158,19 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 4, y: 37}
-  - name: Jump pavuk sprite_Frame_1
+    uvTransform: {x: 4, y: 41}
+  - name: AFK_cactus_Frame_2
     originalName: 
-    pivot: {x: 0.3, y: 0}
-    alignment: 9
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 94
-      y: 37
-      width: 30
-      height: 17
-    spriteID: ac76643db53533d409c5b1ee9935ef2c
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 94, y: 37}
-  - name: Jump pavuk sprite_Frame_2
-    originalName: 
-    pivot: {x: 0.25, y: 0}
+    pivot: {x: 0.33333334, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
       x: 4
       y: 4
-      width: 28
-      height: 25
-    spriteID: 277e45409c878804babf044f4a9a3c55
+      width: 24
+      height: 29
+    spriteID: ebabbdfde9c541f459b9d35df631b1ad
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -179,58 +179,18 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 4, y: 4}
-  - name: Jump pavuk sprite_Frame_3
+  - name: AFK_cactus_Frame_3
     originalName: 
-    pivot: {x: 0.25, y: -0.08}
-    alignment: 9
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 40
-      y: 4
-      width: 28
-      height: 25
-    spriteID: b1843605c0ac972459e86c089bc04405
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 40, y: 4}
-  - name: Jump pavuk sprite_Frame_4
-    originalName: 
-    pivot: {x: 0.25, y: 0}
-    alignment: 9
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 76
-      y: 4
-      width: 28
-      height: 25
-    spriteID: e86abb9fd7d303040bb95295ecece18c
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 76, y: 4}
-  - name: Jump pavuk sprite_Frame_5
-    originalName: 
-    pivot: {x: 0.3, y: 0}
+    pivot: {x: 0.33333334, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
       x: 4
-      y: 63
-      width: 30
-      height: 17
-    spriteID: 867873f9d49b27f44a4064d8ca827223
+      y: 77
+      width: 24
+      height: 28
+    spriteID: 6acba95637ddb5f4fa21454f48d36578
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -238,19 +198,19 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 4, y: 63}
-  - name: Jump pavuk sprite_Frame_6
+    uvTransform: {x: 4, y: 77}
+  - name: AFK_cactus_Frame_4
     originalName: 
-    pivot: {x: 0.24324325, y: 0}
+    pivot: {x: 0.33333334, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 49
-      y: 37
-      width: 37
-      height: 18
-    spriteID: d2eb8dd99df0a9743a8ce26eb733c0ef
+      x: 36
+      y: 39
+      width: 24
+      height: 27
+    spriteID: eefb094eeac35644586687ed33c1e759
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -258,72 +218,84 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 49, y: 37}
+    uvTransform: {x: 36, y: 39}
+  - name: AFK_cactus_Frame_5
+    originalName: 
+    pivot: {x: 0.33333334, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 36
+      y: 74
+      width: 24
+      height: 26
+    spriteID: f4029f932b246014580bf1af21b6a8eb
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 36, y: 74}
   spriteSheetImportData: []
   asepriteLayers:
   - layerIndex: 0
-    guid: 200759258
-    name: Jump pavuk sprite
+    guid: 1643548940
+    name: AFK_cactus
     layerFlags: 0
     layerType: 0
     blendMode: 0
     cells:
-    - name: Jump pavuk sprite_Frame_0
+    - name: AFK_cactus_Frame_0
       frameIndex: 0
       cellRect:
-        x: 23
+        x: 24
         y: 0
-        width: 37
-        height: 18
-      spriteId: b29f15d3a82582f4d9b5cf835f3265f5
-    - name: Jump pavuk sprite_Frame_1
+        width: 24
+        height: 27
+      spriteId: dc76546cc88d3b14fbee4675953f4d11
+    - name: AFK_cactus_Frame_1
       frameIndex: 1
       cellRect:
-        x: 23
+        x: 24
         y: 0
-        width: 30
-        height: 17
-      spriteId: ac76643db53533d409c5b1ee9935ef2c
-    - name: Jump pavuk sprite_Frame_2
+        width: 24
+        height: 28
+      spriteId: 2646a9fffb236fa429260068ad625bc3
+    - name: AFK_cactus_Frame_2
       frameIndex: 2
       cellRect:
-        x: 25
+        x: 24
         y: 0
-        width: 28
-        height: 25
-      spriteId: 277e45409c878804babf044f4a9a3c55
-    - name: Jump pavuk sprite_Frame_3
+        width: 24
+        height: 29
+      spriteId: ebabbdfde9c541f459b9d35df631b1ad
+    - name: AFK_cactus_Frame_3
       frameIndex: 3
       cellRect:
-        x: 25
-        y: 2
-        width: 28
-        height: 25
-      spriteId: b1843605c0ac972459e86c089bc04405
-    - name: Jump pavuk sprite_Frame_4
+        x: 24
+        y: 0
+        width: 24
+        height: 28
+      spriteId: 6acba95637ddb5f4fa21454f48d36578
+    - name: AFK_cactus_Frame_4
       frameIndex: 4
       cellRect:
-        x: 25
+        x: 24
         y: 0
-        width: 28
-        height: 25
-      spriteId: e86abb9fd7d303040bb95295ecece18c
-    - name: Jump pavuk sprite_Frame_5
+        width: 24
+        height: 27
+      spriteId: eefb094eeac35644586687ed33c1e759
+    - name: AFK_cactus_Frame_5
       frameIndex: 5
       cellRect:
-        x: 23
+        x: 24
         y: 0
-        width: 30
-        height: 17
-      spriteId: 867873f9d49b27f44a4064d8ca827223
-    - name: Jump pavuk sprite_Frame_6
-      frameIndex: 6
-      cellRect:
-        x: 23
-        y: 0
-        width: 37
-        height: 18
-      spriteId: d2eb8dd99df0a9743a8ce26eb733c0ef
+        width: 24
+        height: 26
+      spriteId: f4029f932b246014580bf1af21b6a8eb
     linkedCells: []
     parentIndex: -1
   platformSettings: []
