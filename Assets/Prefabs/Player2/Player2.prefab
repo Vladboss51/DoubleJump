@@ -35,6 +35,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 2232814859946722136}
+  - {fileID: 264177321442244093}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &3617276636897302647
@@ -188,11 +189,45 @@ MonoBehaviour:
   _animator: {fileID: 5887052199791362423}
   _sprite: {fileID: 3617276636897302647}
   Speed: 1
-  RotationSpeed: 1
-  Comebacking: 0
   HorizontalMove: 0
-  VerticalMove: 0
+  jumpForce: 16
+  graundCheck: {fileID: 264177321442244093}
+  Radius: 0.1
+  Graund:
+    serializedVersion: 2
+    m_Bits: 128
   rb: {fileID: 0}
+--- !u!1 &7197403849938919474
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 264177321442244093}
+  m_Layer: 0
+  m_Name: GraundCheck
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &264177321442244093
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7197403849938919474}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.3960962, y: 0.6853199, z: 0.061030228}
+  m_LocalScale: {x: 0.125, y: 0.125, z: 0.125}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 5182764834899489962}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &7639147903504637985
 GameObject:
   m_ObjectHideFlags: 0

@@ -8,43 +8,35 @@ public class Player : MonoBehaviour
     [SerializeField] private SpriteRenderer _sprite;
 
     public float Speed;
-    public float RotationSpeed;
-    public bool Comebacking = false;
-    private bool _onGround = true;
-
     public float HorizontalMove;
-    public float VerticalMove;
+    public Transform graundCheck;
+    public float jumpForce;
+    private bool _onGround;
+    public float Radius;
+    public LayerMask Graund;
 
     public Rigidbody2D rb;
-    private Vector2 _jumpForce = new Vector2(0, 800);
     private Lever _lever;
+    public HealthBarPlayers healthBar;
+
+    private void Start()
+    {
+        rb = GetComponent<Rigidbody2D>();
+    }
 
     private void OnEnable()
     {
-        rb = GetComponent<Rigidbody2D>();
         _triggerZone.OnEnter.AddListener(BindOnEnter);
         _triggerZone.OnExit.AddListener(BindOnExit);
-    }
 
+    }
 
     private void OnDisable()
     {
         _triggerZone.OnEnter.RemoveListener(BindOnEnter);
         _triggerZone.OnExit.RemoveListener(BindOnExit);
     }
-    private void OnCollisionEnter2D(Collision2D collision)
-    {
-        Block block = collision.gameObject.GetComponent<Block>();
-        if (block)
-        {
-            if (block.transform.position.y <= transform.position.y)
-            {
-              _animator.SetBool("JUMP", false);
 
-              _onGround = true;
-             }
-        }
-    }
     private void BindOnEnter(Collider2D arg0)
     {
         Door Door = arg0.gameObject.GetComponent<Door>();
@@ -66,18 +58,29 @@ public class Player : MonoBehaviour
 
     private void Update()
     {
-        if (rb.velocity.y < -0.05)
-        {
-            _animator.SetBool("JUMP", true);
+        _onGround = Physics2D.OverlapCircle(graundCheck.position, Radius, Graund);
 
-            _onGround = false;
-        }
-        if (Input.GetKey(KeyCode.W))
+        if (_onGround)
         {
-            if (_onGround) rb.AddForce(_jumpForce);
-            _animator.SetBool("JUMP", true);
-            _onGround = false;
+            _animator.SetBool("JUMP", false);
+            
         }
+
+        if (Input.GetKeyDown(KeyCode.W))
+        {
+            if (_onGround) rb.velocity = Vector2.up * jumpForce;
+            _animator.SetBool("JUMP", true);
+            
+        }
+
+        //if (rb.velocity.y < 0)
+        //{
+        //    _animator.SetBool("JUMP", true);
+
+        //    _onGround = false;
+        //}
+
+
         HorizontalMove = Input.GetAxis("Horizontal");
         transform.position += transform.right * HorizontalMove * Speed * Time.deltaTime;
         
@@ -85,21 +88,30 @@ public class Player : MonoBehaviour
             _animator.SetBool("RUN", true) ;
             _sprite.flipX = false;
         }
-        if (HorizontalMove < 0){
+        else if (HorizontalMove < 0){
             _animator.SetBool("RUN", true);
             _sprite.flipX = true;
         }
-        if (HorizontalMove == 0)
+        else
         {
             _animator.SetBool("RUN", false);
         }
 
+        //attack
+        if (Input.GetKeyDown(KeyCode.U)) {
+            _animator.SetBool("ATTACK", true);
+            healthBar.damage();
+
+        }
+        if (Input.GetKeyUp(KeyCode.U)){
+            _animator.SetBool("ATTACK", false);
+
+        }
 
         if (Input.GetButtonDown("e"))
         {
-
             _lever?.SpawnBlock();
-   
+            healthBar.hill();
         }
     }
 }

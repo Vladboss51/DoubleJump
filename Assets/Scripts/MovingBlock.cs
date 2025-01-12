@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class MovingBlock : Block
+public class MovingBlock : MonoBehaviour
 {
     [SerializeField] private Rigidbody2D _rb;
 
