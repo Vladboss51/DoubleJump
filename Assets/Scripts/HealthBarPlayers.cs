@@ -9,38 +9,22 @@ public class HealthBarPlayers : MonoBehaviour
     public int Health;
 
     public GameObject []lives;
-    //public Sprite fullLive;
-    //public Sprite emptyLive;
 
     public void hill()
     {
         Health++;
+        if (Health > maxHealth) Health = maxHealth;
+        lives[Health - 1].GetComponent<Animator>().SetBool("Live", true);
     }
 
     public void damage()
     {
         Health--;
-    }
-
-    private void Update()
-    {
-        if (Health > maxHealth) Health = maxHealth;
-
-        for (int i = 0; i < lives.Length; i++)
-        {
-            if (i < Health) lives[i].GetComponent<Animator>().SetBool("Live", true);
-
-            else lives[i].GetComponent<Animator>().SetBool("Live", false);
-
-
-            if (i < maxHealth) lives[i].GetComponent<Image>().enabled = true;
-
-            else lives[i].GetComponent<Image>().enabled = false;
-        }
-
         if (Health <= 0)
         {
             Health = 0;
+            //restart
         }
+        lives[Health].GetComponent<Animator>().SetBool("Live", false);
     }
 }

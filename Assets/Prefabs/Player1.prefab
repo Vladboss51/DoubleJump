@@ -98,7 +98,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 0.11
+  m_Radius: 0.08
 --- !u!114 &1239274725782667735
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -155,6 +155,7 @@ Transform:
   m_Children:
   - {fileID: 4420632357531507548}
   - {fileID: 7354325262764683084}
+  - {fileID: 3233190300841513299}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &613652388356917476
@@ -311,8 +312,45 @@ MonoBehaviour:
   HorizontalMove: 0
   graundCheck: {fileID: 7354325262764683084}
   jumpForce: 0
-  Radius: 0.5
-  Graund:
+  jumpRadius: 0
+  graund:
     serializedVersion: 2
-    m_Bits: 128
+    m_Bits: 0
+  attackPoint: {fileID: 0}
+  attackRadius: 0
+  enemy:
+    serializedVersion: 2
+    m_Bits: 0
   rb: {fileID: 8290795049667507718}
+  healthBar: {fileID: 0}
+--- !u!1 &8328670257527570247
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3233190300841513299}
+  m_Layer: 0
+  m_Name: AttackZone
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3233190300841513299
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8328670257527570247}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.085, y: 0.015, z: -0.014384089}
+  m_LocalScale: {x: 0.125, y: 0.125, z: 0.125}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6436276461871102438}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

@@ -9,11 +9,12 @@ public class PlayerSecond : MonoBehaviour
 
     public float Speed;
     public float HorizontalMove;
-    public Transform graundCheck;
+
+    [SerializeField] private Transform _graundCheck;
     public float jumpForce;
     private bool _onGround;
-    public float Radius;
-    public LayerMask Graund;
+    public float jumpRadius;
+    [SerializeField] private LayerMask _graund;
 
     public Rigidbody2D rb;
     private Lever _lever;
@@ -36,10 +37,9 @@ public class PlayerSecond : MonoBehaviour
         Door Door = arg0.gameObject.GetComponent<Door>();
         if (Door) Door.Open(); 
         Lever lever = arg0.gameObject.GetComponent<Lever>();
-        if (lever) 
-        {
-            _lever = lever;
-        }
+        if (lever) _lever = lever;
+        HillBlock HillBlock = arg0.gameObject.GetComponent<HillBlock>();
+        if (HillBlock) HillBlock.hill();
     }
 
     private void BindOnExit(Collider2D arg0)
@@ -52,7 +52,7 @@ public class PlayerSecond : MonoBehaviour
 
     private void Update()
     {
-        _onGround = Physics2D.OverlapCircle(graundCheck.position, Radius, Graund);
+        _onGround = Physics2D.OverlapCircle(_graundCheck.position, jumpRadius, _graund);
 
         if (_onGround) _animator.SetBool("JUMP", false);
 
