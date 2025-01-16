@@ -20,11 +20,6 @@ public class Player : MonoBehaviour
 
     [SerializeField] private Transform _attackZone;
     public float attackRadius;
-    //private float x;
-    //private float y;
-    //private float z;
-    //private bool right = true;
-    //private bool left = false;
     [SerializeField] private LayerMask _enemy;
 
     public Rigidbody2D rb;
@@ -81,6 +76,7 @@ public class Player : MonoBehaviour
             _animator.SetBool("FALL", false);
             
         }
+
         if (Input.GetKey(KeyCode.W))
         {
             _animator.SetBool("JUMP", true);
@@ -105,7 +101,7 @@ public class Player : MonoBehaviour
         }
 
         //attack
-        if (Input.GetKeyDown(KeyCode.V)) {
+        if (Input.GetKeyDown(KeyCode.Space)) {
             _animator.SetBool("ATTACK", true);
             if (_sprite.flipX == true) _attackZone.localPosition = new Vector3(-0.1f, 0, 0);
             else _attackZone.localPosition = new Vector3(0.1f, 0, 0);
@@ -117,7 +113,7 @@ public class Player : MonoBehaviour
 
             }
         }
-        if (Input.GetKeyUp(KeyCode.V)){
+        if (Input.GetKeyUp(KeyCode.Space)){
             _animator.SetBool("ATTACK", false);
 
         }
@@ -133,8 +129,8 @@ public class Player : MonoBehaviour
         if (_onGround) rb.velocity = new Vector2(rb.velocity.x, jumpForce);
     }
 
-    private void OnDrawGizmosSelected()
-    {
-        Gizmos.DrawWireSphere(_attackZone.position, attackRadius);
-    }
+    //private void OnDrawGizmosSelected()
+    //{
+    //    Gizmos.DrawWireSphere(_attackZone.position, attackRadius);
+    //}
 }
