@@ -1,5 +1,6 @@
 using Game;
 using UnityEngine;
+using UnityEngine.UIElements;
 
 public class Player : MonoBehaviour
 {
@@ -19,11 +20,11 @@ public class Player : MonoBehaviour
 
     [SerializeField] private Transform _attackZone;
     public float attackRadius;
-    private float x;
-    private float y;
-    private float z;
-    private bool right = true;
-    private bool left = false;
+    //private float x;
+    //private float y;
+    //private float z;
+    //private bool right = true;
+    //private bool left = false;
     [SerializeField] private LayerMask _enemy;
 
     public Rigidbody2D rb;
@@ -105,26 +106,11 @@ public class Player : MonoBehaviour
 
         //attack
         if (Input.GetKeyDown(KeyCode.V)) {
-            //x = _attackZone.localPosition.x;
-            //y = _attackZone.localPosition.y;
-            //z = _attackZone.localPosition.z;
             _animator.SetBool("ATTACK", true);
-            if (_sprite.flipX == true)
-            {
-                if (left == false) x -= 1.7f;
-                left = true;
-                right = false;
-                _attackZone.localPosition = new Vector3(0, 0, 0);
-            }
-            else if (_sprite.flipX == false)
-            {
-                if (right == false) x += 1.7f;
-                right = true;
-                left = false;
-                _attackZone.localPosition = new Vector3(0, 0, 0);
-            }
+            if (_sprite.flipX == true) _attackZone.localPosition = new Vector3(-0.1f, 0, 0);
+            else _attackZone.localPosition = new Vector3(0.1f, 0, 0);
 
-            Collider2D[] Enemies = Physics2D.OverlapCircleAll(_attackZone.localPosition, attackRadius, _enemy);
+            Collider2D[] Enemies = Physics2D.OverlapCircleAll(_attackZone.position, attackRadius, _enemy);
             foreach (Collider2D enemy in Enemies)
             {
                 _healthBar.damage();
@@ -149,6 +135,6 @@ public class Player : MonoBehaviour
 
     private void OnDrawGizmosSelected()
     {
-        Gizmos.DrawWireSphere(_attackZone.localPosition, attackRadius);
+        Gizmos.DrawWireSphere(_attackZone.position, attackRadius);
     }
 }
