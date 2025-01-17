@@ -20,6 +20,8 @@ public class Player : MonoBehaviour
 
     [SerializeField] private Transform _attackZone;
     public float attackRadius;
+    public float attackRate = 0.5f;
+    private float nextAttackTime = 0f;
     [SerializeField] private LayerMask _enemy;
 
     public Rigidbody2D rb;
@@ -101,16 +103,22 @@ public class Player : MonoBehaviour
         }
 
         //attack
-        if (Input.GetKeyDown(KeyCode.Space)) {
-            _animator.SetBool("ATTACK", true);
-            if (_sprite.flipX == true) _attackZone.localPosition = new Vector3(-0.1f, 0, 0);
-            else _attackZone.localPosition = new Vector3(0.1f, 0, 0);
-
-            Collider2D[] Enemies = Physics2D.OverlapCircleAll(_attackZone.position, attackRadius, _enemy);
-            foreach (Collider2D enemy in Enemies)
+        if (Time.time >= nextAttackTime)
+        {
+            if (Input.GetKeyDown(KeyCode.Space))
             {
-                _healthBar.damage();
+                _animator.SetBool("ATTACK", true);
+                if (_sprite.flipX == true) _attackZone.localPosition = new Vector3(-0.1f, 0, 0);
+                else _attackZone.localPosition = new Vector3(0.1f, 0, 0);
 
+                Collider2D[] Enemies = Physics2D.OverlapCircleAll(_attackZone.position, attackRadius, _enemy);
+                foreach (Collider2D enemy in Enemies)
+                {
+                    _healthBar.damage();
+
+                }
+
+                nextAttackTime = Time.time + attackRate;
             }
         }
         if (Input.GetKeyUp(KeyCode.Space)){

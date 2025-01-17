@@ -5323,6 +5323,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 127649983}
     - target: {fileID: 8921218081471850504, guid: a6f2edaec602a8241b569f1f5e87ad65, type: 3}
+      propertyPath: attackRate
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 8921218081471850504, guid: a6f2edaec602a8241b569f1f5e87ad65, type: 3}
       propertyPath: attackZone
       value: 
       objectReference: {fileID: 563448831}
