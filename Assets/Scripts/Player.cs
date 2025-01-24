@@ -11,6 +11,7 @@ public class Player : MonoBehaviour
 
     public float Speed;
     public float HorizontalMove;
+    private bool _facingRight = true;
 
     [SerializeField] private Transform _graundCheck;
     public float jumpForce;
@@ -54,6 +55,12 @@ public class Player : MonoBehaviour
         if (lever) _lever = lever;
         HillBlock HillBlock = arg0.gameObject.GetComponent<HillBlock>();
         if (HillBlock) HillBlock.hill();
+        Spike Spike = arg0.gameObject.GetComponent<Spike>();
+        if (Spike)
+        {
+            _healthBar.damage();
+            Destroy(arg0.gameObject);
+        }
     }
 
     private void BindOnExit(Collider2D arg0)
@@ -88,19 +95,47 @@ public class Player : MonoBehaviour
 
         HorizontalMove = Input.GetAxis("Horizontal");
         transform.position += transform.right * HorizontalMove * Speed * Time.deltaTime;
-        
-        if (HorizontalMove > 0){
-            _animator.SetBool("RUN", true) ;
-            _sprite.flipX = false;
-        }
-        else if (HorizontalMove < 0){
+
+        if (HorizontalMove != 0)
+        {
             _animator.SetBool("RUN", true);
-            _sprite.flipX = true;
+            if (HorizontalMove > 0 && !_facingRight)
+            {
+                //Vector3 theScale = transform.localScale;
+                //theScale.x *= -1;
+                //transform.localScale = theScale;
+                transform.Rotate(0f, 180f, 0f);
+                Speed *= -1;
+                _facingRight = !_facingRight;
+            }
+            else if (HorizontalMove < 0 && _facingRight)
+            {
+                //Vector3 theScale = transform.localScale;
+                //theScale.x *= -1;
+                //transform.localScale = theScale;
+                transform.Rotate(0f, 180f, 0f);
+                Speed *= -1;
+                _facingRight = !_facingRight;
+            }
         }
+
         else
         {
             _animator.SetBool("RUN", false);
         }
+
+        //if (HorizontalMove > 0){
+        //    _animator.SetBool("RUN", true) ;
+        //    _sprite.flipX = false;
+        //}
+        //else if (HorizontalMove < 0){
+        //    _animator.SetBool("RUN", true);
+        //    _sprite.flipX = true;
+        //}
+        //else
+        //{
+        //    _animator.SetBool("RUN", false);
+        //}
 
         //attack
         if (Time.time >= nextAttackTime)
@@ -108,8 +143,6 @@ public class Player : MonoBehaviour
             if (Input.GetKeyDown(KeyCode.Space))
             {
                 _animator.SetBool("ATTACK", true);
-                if (_sprite.flipX == true) _attackZone.localPosition = new Vector3(-0.1f, 0, 0);
-                else _attackZone.localPosition = new Vector3(0.1f, 0, 0);
 
                 Collider2D[] Enemies = Physics2D.OverlapCircleAll(_attackZone.position, attackRadius, _enemy);
                 foreach (Collider2D enemy in Enemies)
