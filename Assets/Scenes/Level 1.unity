@@ -5900,16 +5900,40 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 4034661536365321316, guid: a6f2edaec602a8241b569f1f5e87ad65, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -951306582066028357, guid: 5f0369418a6acd84583523dde223f1dc, type: 3}
+    - target: {fileID: 4034661536365321316, guid: a6f2edaec602a8241b569f1f5e87ad65, type: 3}
+      propertyPath: m_Color.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4034661536365321316, guid: a6f2edaec602a8241b569f1f5e87ad65, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4034661536365321316, guid: a6f2edaec602a8241b569f1f5e87ad65, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4034661536365321316, guid: a6f2edaec602a8241b569f1f5e87ad65, type: 3}
+      propertyPath: m_Color.r
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4034661536365321316, guid: a6f2edaec602a8241b569f1f5e87ad65, type: 3}
       propertyPath: m_SortingOrder
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4721142877546802485, guid: a6f2edaec602a8241b569f1f5e87ad65, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5382678630027542210, guid: a6f2edaec602a8241b569f1f5e87ad65, type: 3}
       propertyPath: m_Name
       value: Player1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5446548629260747901, guid: a6f2edaec602a8241b569f1f5e87ad65, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.737
       objectReference: {fileID: 0}
     - target: {fileID: 6436276461871102438, guid: a6f2edaec602a8241b569f1f5e87ad65, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5950,6 +5974,10 @@ PrefabInstance:
     - target: {fileID: 6436276461871102438, guid: a6f2edaec602a8241b569f1f5e87ad65, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7884286593428137791, guid: a6f2edaec602a8241b569f1f5e87ad65, type: 3}
+      propertyPath: m_Offset.y
+      value: 0.53
       objectReference: {fileID: 0}
     - target: {fileID: 8921218081471850504, guid: a6f2edaec602a8241b569f1f5e87ad65, type: 3}
       propertyPath: _healthBar
