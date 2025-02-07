@@ -13,9 +13,10 @@ GameObject:
   - component: {fileID: 7883744791201029225}
   - component: {fileID: 7045528627186959170}
   - component: {fileID: 3227245381481068704}
-  m_Layer: 0
+  - component: {fileID: 1090625283474009255}
+  m_Layer: 3
   m_Name: Cactus
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -29,8 +30,8 @@ Transform:
   m_GameObject: {fileID: 9105531912637342556}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 5.13, y: -1.89, z: 0}
-  m_LocalScale: {x: 7.5954556, y: 7.5954556, z: 7.5954556}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -75,7 +76,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: -1
+  m_SortingOrder: -2
   m_Sprite: {fileID: -5616730692043700480, guid: 25e4fa9a2c8d644449d8ed710fba3b2b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -119,8 +120,8 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.038054157, y: 0.12429714}
-  m_Size: {x: 0.19329663, y: 0.23691837}
+  m_Offset: {x: 0.09143427, y: 0.2498973}
+  m_Size: {x: 0.30005687, y: 0.48811877}
   m_Direction: 0
 --- !u!95 &7045528627186959170
 Animator:
@@ -157,4 +158,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _spike: {fileID: 4843825929416738705, guid: 4a31298b41456cb4da7b6c58c8f1e345, type: 3}
   _animator: {fileID: 7045528627186959170}
-  attackRate: 3
+  attackRate: 2
+--- !u!114 &1090625283474009255
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9105531912637342556}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5cf0f4ab66f0af6499e3bd6602856d2d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  healthEnemy: 2
+  _anim: {fileID: 7045528627186959170}

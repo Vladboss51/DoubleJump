@@ -1,6 +1,5 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
+
 
 public class Cactus : MonoBehaviour
 {
@@ -8,20 +7,23 @@ public class Cactus : MonoBehaviour
     [SerializeField] private Animator _animator;
     public float attackRate = 3f;
     private float _nextAttackTime = 0f;
+    private Vector3 _position;
+    private Quaternion _rotation;
 
 
     // Start is called before the first frame update
     void Start()
     {
-        
+        _position = transform.position;
+        _rotation = transform.rotation;
     }
 
     // Update is called once per frame
-    void Update()
+    private void Update()
     {
         if (Time.time >= _nextAttackTime)
         {
-            _animator.SetBool("ATTACK", true);
+            _animator.SetTrigger("ATTACK");
 
             _nextAttackTime = Time.time + attackRate;
         }
@@ -29,12 +31,7 @@ public class Cactus : MonoBehaviour
 
     private void Attack()
     {
-        Instantiate(_spike);
+        Instantiate(_spike, _position, _rotation);
 
-    }
-
-    private void AttackFalse()
-    {
-        _animator.SetBool("ATTACK", false);
     }
 }

@@ -3,7 +3,10 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Obstacle
+  - Enemy
+  - Bullet
   layers:
   - Default
   - TransparentFX
@@ -11,11 +14,11 @@ TagManager:
   - Enemy
   - Water
   - UI
-  - stena
+  - Bullet
   - Graund
   - Player 1
   - Player 2
-  - 
+  - Wall
   - 
   - 
   - 

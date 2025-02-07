@@ -8,6 +8,7 @@ public class Player : MonoBehaviour
     [SerializeField] private Animator _animator;
     [SerializeField] private SpriteRenderer _sprite;
     [SerializeField] private HealthBarPlayers _healthBar;
+    [SerializeField] private ShieldSystem _shieldSystem;
 
     public float Speed;
     public float HorizontalMove;
@@ -54,13 +55,8 @@ public class Player : MonoBehaviour
         Lever lever = arg0.gameObject.GetComponent<Lever>();
         if (lever) _lever = lever;
         HillBlock HillBlock = arg0.gameObject.GetComponent<HillBlock>();
-        if (HillBlock) HillBlock.hill();
-        Spike Spike = arg0.gameObject.GetComponent<Spike>();
-        if (Spike)
-        {
-            _healthBar.damage();
-            Destroy(arg0.gameObject);
-        }
+        if (HillBlock) {_healthBar.GetHill(); Destroy(arg0.gameObject);}
+        
     }
 
     private void BindOnExit(Collider2D arg0)
@@ -78,7 +74,6 @@ public class Player : MonoBehaviour
         {
             _animator.SetBool("FALL", true);
         }
-
         if (_onGround)
         {
             _animator.SetBool("JUMP", false);
@@ -91,6 +86,10 @@ public class Player : MonoBehaviour
             _animator.SetBool("JUMP", true);
             
         }
+        if (Input.GetKeyUp(KeyCode.Space)){
+            _animator.SetBool("ATTACK", false);
+
+        }
 
 
         HorizontalMove = Input.GetAxis("Horizontal");
@@ -101,43 +100,23 @@ public class Player : MonoBehaviour
             _animator.SetBool("RUN", true);
             if (HorizontalMove > 0 && !_facingRight)
             {
-                //Vector3 theScale = transform.localScale;
-                //theScale.x *= -1;
-                //transform.localScale = theScale;
                 transform.Rotate(0f, 180f, 0f);
                 Speed *= -1;
                 _facingRight = !_facingRight;
             }
             else if (HorizontalMove < 0 && _facingRight)
             {
-                //Vector3 theScale = transform.localScale;
-                //theScale.x *= -1;
-                //transform.localScale = theScale;
                 transform.Rotate(0f, 180f, 0f);
                 Speed *= -1;
                 _facingRight = !_facingRight;
             }
         }
-
         else
         {
             _animator.SetBool("RUN", false);
         }
 
-        //if (HorizontalMove > 0){
-        //    _animator.SetBool("RUN", true) ;
-        //    _sprite.flipX = false;
-        //}
-        //else if (HorizontalMove < 0){
-        //    _animator.SetBool("RUN", true);
-        //    _sprite.flipX = true;
-        //}
-        //else
-        //{
-        //    _animator.SetBool("RUN", false);
-        //}
-
-        //attack
+//attack
         if (Time.time >= nextAttackTime)
         {
             if (Input.GetKeyDown(KeyCode.Space))
@@ -147,18 +126,18 @@ public class Player : MonoBehaviour
                 Collider2D[] Enemies = Physics2D.OverlapCircleAll(_attackZone.position, attackRadius, _enemy);
                 foreach (Collider2D enemy in Enemies)
                 {
-                    _healthBar.damage();
+                    enemy.GetComponent<EnemyHealth>().TakeDamage();
 
                 }
 
                 nextAttackTime = Time.time + attackRate;
             }
         }
-        if (Input.GetKeyUp(KeyCode.Space)){
-            _animator.SetBool("ATTACK", false);
 
-        }
-
+//ShieldZone
+        if (Input.GetKeyDown(KeyCode.LeftShift))
+            _shieldSystem.ActivationShield();
+//Lever
         if (Input.GetButtonDown("e"))
         {
             _lever?.SpawnBlock();
@@ -170,8 +149,10 @@ public class Player : MonoBehaviour
         if (_onGround) rb.velocity = new Vector2(rb.velocity.x, jumpForce);
     }
 
-    //private void OnDrawGizmosSelected()
-    //{
-    //    Gizmos.DrawWireSphere(_attackZone.position, attackRadius);
-    //}
+    private void OnDrawGizmosSelected()
+    {
+        Gizmos.DrawWireSphere(_attackZone.position, attackRadius);
+        Gizmos.DrawWireSphere(_graundCheck.position, jumpRadius);
+    }
+
 }

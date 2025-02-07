@@ -14,9 +14,9 @@ GameObject:
   - component: {fileID: 4681924136238452621}
   - component: {fileID: 5887052199791362423}
   - component: {fileID: 9061079999552021247}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Player2
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -31,8 +31,8 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 5.6199636, y: 5.685269, z: 7.421055}
-  m_ConstrainProportionsScale: 0
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 2232814859946722136}
   - {fileID: 264177321442244093}
@@ -149,8 +149,8 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.0010398744, y: 0.0022537562}
-  m_Size: {x: 0.11632566, y: 0.18694383}
+  m_Offset: {x: 0.00012309849, y: 0.003488779}
+  m_Size: {x: 0.18193957, y: 0.46909046}
   m_Direction: 0
 --- !u!95 &5887052199791362423
 Animator:
@@ -185,18 +185,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 16c00f261325218449d712ced7957ba4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _triggerZone: {fileID: 0}
+  _triggerZone: {fileID: 6462657117694716998}
   _animator: {fileID: 5887052199791362423}
   _sprite: {fileID: 3617276636897302647}
-  Speed: 1
+  _healthBar: {fileID: 0}
+  Speed: 2
   HorizontalMove: 0
-  jumpForce: 16
-  graundCheck: {fileID: 264177321442244093}
-  Radius: 0.1
-  Graund:
+  _graundCheck: {fileID: 264177321442244093}
+  jumpForce: 6.5
+  jumpRadius: 0.05
+  _graund:
     serializedVersion: 2
-    m_Bits: 128
-  rb: {fileID: 0}
+    m_Bits: 384
+  rb: {fileID: 346786435031996664}
 --- !u!1 &7197403849938919474
 GameObject:
   m_ObjectHideFlags: 0
@@ -222,9 +223,9 @@ Transform:
   m_GameObject: {fileID: 7197403849938919474}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.3960962, y: 0.6853199, z: 0.061030228}
-  m_LocalScale: {x: 0.125, y: 0.125, z: 0.125}
-  m_ConstrainProportionsScale: 0
+  m_LocalPosition: {x: 0, y: -0.223, z: 0.061030228}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 5182764834899489962}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -240,7 +241,7 @@ GameObject:
   - component: {fileID: 8576762670932537244}
   - component: {fileID: 6462657117694716998}
   m_Layer: 0
-  m_Name: GameObject
+  m_Name: Zone
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -256,8 +257,8 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 2.0341, y: 2.0341, z: 2.0341}
-  m_ConstrainProportionsScale: 0
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 5182764834899489962}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -295,7 +296,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 0.11
+  m_Radius: 0.4
 --- !u!114 &6462657117694716998
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -6,6 +6,7 @@ public class PlayerSecond : MonoBehaviour
     [SerializeField] private AZone _triggerZone;
     [SerializeField] private Animator _animator;
     [SerializeField] private SpriteRenderer _sprite;
+    [SerializeField] private HealthBarPlayers _healthBar;
 
     public float Speed;
     public float HorizontalMove;
@@ -39,7 +40,7 @@ public class PlayerSecond : MonoBehaviour
         Lever lever = arg0.gameObject.GetComponent<Lever>();
         if (lever) _lever = lever;
         HillBlock HillBlock = arg0.gameObject.GetComponent<HillBlock>();
-        if (HillBlock) HillBlock.hill();
+        if (HillBlock) { _healthBar.GetHill(); Destroy(arg0.gameObject); }
     }
 
     private void BindOnExit(Collider2D arg0)
@@ -93,5 +94,11 @@ public class PlayerSecond : MonoBehaviour
             _lever?.SpawnBlock();
    
         }
+    }
+
+    private void OnDrawGizmosSelected()
+    {
+        //Gizmos.DrawWireSphere(_attackZone.position, attackRadius);
+        Gizmos.DrawWireSphere(_graundCheck.position, jumpRadius);
     }
 }
