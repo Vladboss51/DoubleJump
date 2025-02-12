@@ -7,12 +7,14 @@ public class EnemyHealth : MonoBehaviour
     public float healthEnemy;
     private Animator _anim;
     private SpriteRenderer _spriteRenderer;
+    private Collider2D _collider;
 
     // Start is called before the first frame update
     void Start()
     {
         _anim = GetComponent<Animator>();
         _spriteRenderer = GetComponent<SpriteRenderer>();
+        _collider = GetComponent<Collider2D>();
     }
 
     // Update is called once per frame
@@ -23,14 +25,18 @@ public class EnemyHealth : MonoBehaviour
 
     public void TakeDamage()
     {
+        healthEnemy -= 1;
+        if (healthEnemy <= 0)
+        {
+            _anim.SetTrigger("DIED");
+            _collider.enabled = false;
+        }
         StartCoroutine(TakeDamageCoroutine());
     }
 
     private IEnumerator TakeDamageCoroutine()
     {
-        healthEnemy -= 1;
         _spriteRenderer.color = Color.red;
-        if (healthEnemy <= 0) _anim.SetTrigger("DIED");
         yield return new WaitForSeconds(0.1f);
         _spriteRenderer.color = Color.white;
     }

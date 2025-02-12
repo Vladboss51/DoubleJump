@@ -1,7 +1,7 @@
 using UnityEngine;
 using System;
 
-public class Cam : MonoBehaviour
+public class camera : MonoBehaviour
 {
     [SerializeField] private Player _player1;
     [SerializeField] private PlayerSecond _player2;
