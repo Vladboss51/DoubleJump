@@ -71,7 +71,7 @@ ScriptedImporter:
     textureFormatSet: 0
     applyGammaDecoding: 0
   previousAsepriteImporterSettings:
-    fileImportMode: 1
+    fileImportMode: 0
     importHiddenLayers: 0
     layerImportMode: 1
     defaultPivotSpace: 0
@@ -83,7 +83,7 @@ ScriptedImporter:
     addSortingGroup: 1
     addShadowCasters: 0
   asepriteImporterSettings:
-    fileImportMode: 1
+    fileImportMode: 0
     importHiddenLayers: 0
     layerImportMode: 1
     defaultPivotSpace: 0
@@ -95,7 +95,7 @@ ScriptedImporter:
     addSortingGroup: 1
     addShadowCasters: 0
   importFileNodeState: 1
-  platformSettingsDirtyTick: 638741141599656972
+  platformSettingsDirtyTick: 638756940044482272
   textureAssetName: 
   singleSpriteImportData:
   - name: 
@@ -299,7 +299,187 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 70, y: 79}
-  spriteSheetImportData: []
+  spriteSheetImportData:
+  - name: Attack_cactus_7
+    originalName: 
+    pivot: {x: 1, y: 0}
+    alignment: 8
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 43
+      y: 4
+      width: 31
+      height: 30
+    spriteID: f91b53ad58e90714a84aa580ac871d86
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  - name: Attack_cactus_0
+    originalName: 
+    pivot: {x: 1, y: 0}
+    alignment: 8
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 79
+      width: 26
+      height: 27
+    spriteID: eac584885cec7ce4cb0842022d3e8cb0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  - name: Attack_cactus_8
+    originalName: 
+    pivot: {x: 1, y: 0}
+    alignment: 8
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 82
+      y: 4
+      width: 32
+      height: 29
+    spriteID: 5b15d34b984e89946b1d1691a6ebfa76
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  - name: Attack_cactus_5
+    originalName: 
+    pivot: {x: 1, y: 0}
+    alignment: 8
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 75
+      y: 42
+      width: 26
+      height: 29
+    spriteID: b5d653abde3a15c4bbc4b19f78c71050
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  - name: Attack_cactus_4
+    originalName: 
+    pivot: {x: 1, y: 0}
+    alignment: 8
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 41
+      y: 42
+      width: 26
+      height: 29
+    spriteID: 11cecfdac52c00941ba8773e586cfad9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  - name: Attack_cactus_6
+    originalName: 
+    pivot: {x: 1, y: 0}
+    alignment: 8
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 31
+      height: 30
+    spriteID: 9a4253fa482e9bd4cb2db56337f111df
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  - name: Attack_cactus_2
+    originalName: 
+    pivot: {x: 1, y: 0}
+    alignment: 8
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 70
+      y: 79
+      width: 24
+      height: 27
+    spriteID: 1007e2f05e09d354cb304e7222694820
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  - name: Attack_cactus_3
+    originalName: 
+    pivot: {x: 1, y: 0}
+    alignment: 8
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 42
+      width: 29
+      height: 29
+    spriteID: 6b2430ebb9016034ab17180ac893a1d1
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  - name: Attack_cactus_1
+    originalName: 
+    pivot: {x: 1, y: 0}
+    alignment: 8
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 38
+      y: 79
+      width: 24
+      height: 27
+    spriteID: e7fd9c64fcd819c4a87404097658e9a6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
   asepriteLayers:
   - layerIndex: 0
     guid: -1683851664

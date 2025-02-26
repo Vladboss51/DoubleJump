@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: e0a2c58c75bea3547bdcd0e9818b648a
+guid: 3ea0dd1e02830d04db19a5089d446d91
 ScriptedImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -71,7 +71,7 @@ ScriptedImporter:
     textureFormatSet: 0
     applyGammaDecoding: 0
   previousAsepriteImporterSettings:
-    fileImportMode: 1
+    fileImportMode: 0
     importHiddenLayers: 0
     layerImportMode: 1
     defaultPivotSpace: 0
@@ -83,7 +83,7 @@ ScriptedImporter:
     addSortingGroup: 1
     addShadowCasters: 0
   asepriteImporterSettings:
-    fileImportMode: 1
+    fileImportMode: 0
     importHiddenLayers: 0
     layerImportMode: 1
     defaultPivotSpace: 0
@@ -95,7 +95,7 @@ ScriptedImporter:
     addSortingGroup: 1
     addShadowCasters: 0
   importFileNodeState: 1
-  platformSettingsDirtyTick: 638734966805729263
+  platformSettingsDirtyTick: 638754315497559104
   textureAssetName: 
   singleSpriteImportData:
   - name: 
@@ -130,7 +130,7 @@ ScriptedImporter:
       y: 4
       width: 44
       height: 19
-    spriteID: e6c9ec1c68f25ee43b66f830da4d209a
+    spriteID: f9626a2776578c944951cfeee335641e
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -139,7 +139,27 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 4, y: 4}
-  spriteSheetImportData: []
+  spriteSheetImportData:
+  - name: Platform_green1_0
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 44
+      height: 19
+    spriteID: 4813f076abbc6e04a90b2d2e649812b7
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
   asepriteLayers:
   - layerIndex: 0
     guid: 1391374392
@@ -155,7 +175,7 @@ ScriptedImporter:
         y: 7
         width: 44
         height: 19
-      spriteId: e6c9ec1c68f25ee43b66f830da4d209a
+      spriteId: f9626a2776578c944951cfeee335641e
     linkedCells: []
     parentIndex: -1
   platformSettings:

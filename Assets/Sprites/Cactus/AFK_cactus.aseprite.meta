@@ -71,7 +71,7 @@ ScriptedImporter:
     textureFormatSet: 0
     applyGammaDecoding: 0
   previousAsepriteImporterSettings:
-    fileImportMode: 1
+    fileImportMode: 0
     importHiddenLayers: 0
     layerImportMode: 1
     defaultPivotSpace: 0
@@ -83,7 +83,7 @@ ScriptedImporter:
     addSortingGroup: 1
     addShadowCasters: 0
   asepriteImporterSettings:
-    fileImportMode: 1
+    fileImportMode: 0
     importHiddenLayers: 0
     layerImportMode: 1
     defaultPivotSpace: 0
@@ -95,7 +95,7 @@ ScriptedImporter:
     addSortingGroup: 1
     addShadowCasters: 0
   importFileNodeState: 1
-  platformSettingsDirtyTick: 638741141599641862
+  platformSettingsDirtyTick: 638756940044482272
   textureAssetName: 
   singleSpriteImportData:
   - name: 
@@ -239,7 +239,127 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 36, y: 74}
-  spriteSheetImportData: []
+  spriteSheetImportData:
+  - name: AFK_cactus_2
+    originalName: 
+    pivot: {x: 1, y: 0}
+    alignment: 8
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 41
+      width: 24
+      height: 28
+    spriteID: e6cfefc271582f64db1376ba6e698877
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  - name: AFK_cactus_0
+    originalName: 
+    pivot: {x: 1, y: 0}
+    alignment: 8
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 77
+      width: 24
+      height: 28
+    spriteID: d1092e309a31b2944bd6f86b1ae487b0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  - name: AFK_cactus_4
+    originalName: 
+    pivot: {x: 1, y: 0}
+    alignment: 8
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 24
+      height: 29
+    spriteID: d8bd3689e25d1a04b90c0be83678a8c4
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  - name: AFK_cactus_1
+    originalName: 
+    pivot: {x: 1, y: 0}
+    alignment: 8
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 36
+      y: 74
+      width: 24
+      height: 26
+    spriteID: 9f002c8fc8affc04b8dd275a67ddc92d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  - name: AFK_cactus_3
+    originalName: 
+    pivot: {x: 1, y: 0}
+    alignment: 8
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 36
+      y: 39
+      width: 24
+      height: 27
+    spriteID: 37f4134eb04bd73459c883297946b82b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  - name: AFK_cactus_5
+    originalName: 
+    pivot: {x: 1, y: 0}
+    alignment: 8
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 36
+      y: 4
+      width: 24
+      height: 27
+    spriteID: f930b3bd9352aa24b96ac08991e2c5c2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
   asepriteLayers:
   - layerIndex: 0
     guid: 1643548940

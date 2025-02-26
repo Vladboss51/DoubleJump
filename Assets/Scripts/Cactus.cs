@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.UIElements;
 
 
 public class Cactus : MonoBehaviour
@@ -14,7 +15,8 @@ public class Cactus : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        _position = transform.position;
+        if (transform.rotation.y != 0) _position = transform.position + new Vector3(-0.5f, 0.5f, 0f);
+        else _position = transform.position + new Vector3(0.5f, 0.5f, 0f);
         _rotation = transform.rotation;
     }
 

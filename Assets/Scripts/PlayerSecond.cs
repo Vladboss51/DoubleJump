@@ -1,104 +1,27 @@
 using Game;
 using UnityEngine;
+using UnityEngine.UIElements;
 
-public class PlayerSecond : MonoBehaviour
+public class PlayerSecond : Character
 {
-    [SerializeField] private AZone _triggerZone;
-    [SerializeField] private Animator _animator;
-    [SerializeField] private SpriteRenderer _sprite;
-    [SerializeField] private HealthBarPlayers _healthBar;
+    [SerializeField] private GameObject _arrow;
+    private Vector3 _position;
+    private Quaternion _rotation;
 
-    public float Speed;
-    public float HorizontalMove;
-
-    [SerializeField] private Transform _graundCheck;
-    public float jumpForce;
-    private bool _onGround;
-    public float jumpRadius;
-    [SerializeField] private LayerMask _graund;
-
-    public Rigidbody2D rb;
-    private Lever _lever;
-
-    private void OnEnable()
+    private void Start()
     {
-        rb = GetComponent<Rigidbody2D>();
-        _triggerZone.OnEnter.AddListener(BindOnEnter);
-        _triggerZone.OnExit.AddListener(BindOnExit);
+        _moveButton = "Horizontal2";
+        _jumpButton = "up2";
+        _interactionButton = "ctrl";
+        _attackButton = "Fire2";
     }
 
-    private void OnDisable()
+    protected override void Attack()
     {
-        _triggerZone.OnEnter.RemoveListener(BindOnEnter);
-        _triggerZone.OnExit.RemoveListener(BindOnExit);
-    }
+        base.Attack();
+        _position = transform.position + new Vector3(0.2f, 0f, 0f);
+        _rotation = transform.rotation;
+        Instantiate(_arrow, _position, _rotation);
 
-    private void BindOnEnter(Collider2D arg0)
-    {
-        Door Door = arg0.gameObject.GetComponent<Door>();
-        if (Door) Door.Open(); 
-        Lever lever = arg0.gameObject.GetComponent<Lever>();
-        if (lever) _lever = lever;
-        HillBlock HillBlock = arg0.gameObject.GetComponent<HillBlock>();
-        if (HillBlock) { _healthBar.GetHill(); Destroy(arg0.gameObject); }
-    }
-
-    private void BindOnExit(Collider2D arg0)
-    {
-        Door Door = arg0.gameObject.GetComponent<Door>();
-        if (Door)  Door.Close();
-        Lever lever = arg0.gameObject.GetComponent<Lever>();
-        if (lever) _lever = null;
-    }
-
-    private void Update()
-    {
-        _onGround = Physics2D.OverlapCircle(_graundCheck.position, jumpRadius, _graund);
-
-        if (_onGround) _animator.SetBool("JUMP", false);
-
-        if (Input.GetButtonDown("up"))
-        {
-            if (_onGround) rb.velocity = Vector2.up * jumpForce;
-            _animator.SetBool("JUMP", true);
-        }
-
-        //if (rb.velocity.y < -0.05)
-        //{
-        //    _animator.SetBool("JUMP", true);
-
-        //    _onGround = false;
-        //}
-
-
-        HorizontalMove = Input.GetAxis("Vertical");
-        transform.position += transform.right *HorizontalMove * Speed * Time.deltaTime;
-        
-        if (HorizontalMove > 0){
-            _animator.SetBool("RUN", true) ;
-            _sprite.flipX = false;
-        }
-        if (HorizontalMove < 0){
-            _animator.SetBool("RUN", true);
-            _sprite.flipX = true;
-        }
-        if (HorizontalMove == 0)
-        {
-            _animator.SetBool("RUN", false);
-        }
-
-
-        if (Input.GetButtonDown("ctrl"))
-        {
-
-            _lever?.SpawnBlock();
-   
-        }
-    }
-
-    private void OnDrawGizmosSelected()
-    {
-        //Gizmos.DrawWireSphere(_attackZone.position, attackRadius);
-        Gizmos.DrawWireSphere(_graundCheck.position, jumpRadius);
     }
 }

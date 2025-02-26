@@ -8,19 +8,8 @@ public class PlayersController : MonoBehaviour
     [SerializeField] private GameObject _shieldZone;
     [SerializeField] private ShieldSystem _shieldSystem;
     private float _distance;
-    public float distance = 1f;
+    public float distance = 0.6f;
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 
     public void Damage()
     {

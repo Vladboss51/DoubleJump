@@ -8,8 +8,8 @@ public class HealthBarPlayers : MonoBehaviour
 {
     [SerializeField] private GameObject _diaedMenu;
 
-    public int maxHealth;
-    public int Health;
+    public int maxHealth = 3;
+    public int Health = 3;
 
     public GameObject []lives;
 
@@ -26,9 +26,15 @@ public class HealthBarPlayers : MonoBehaviour
         if (Health <= 0)
         {
             Health = 0;
-            _diaedMenu.SetActive(true);
+            //_anim.SetTrigger("DIED");
+            Died();
         }
         lives[Health].GetComponent<Animator>().SetBool("Live", false);
 
+    }
+
+    private void Died()
+    {
+        _diaedMenu.SetActive(true);
     }
 }
